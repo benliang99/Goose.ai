@@ -33,6 +33,7 @@ let colorChoices = [
 ];
 let backgroundColor, color1, color2, color3, color4;
 let plexMono;
+let img;
 
 /*
  * Preload
@@ -40,6 +41,8 @@ let plexMono;
  */
 function preload() {
   plexMono = loadFont("fonts/IBMPlexMono-Regular.ttf");
+  img = loadImage('images/goose.png'); // Replace 'path/to/your/image.jpg' with the actual path to your image
+
 }
 
 /*
@@ -69,11 +72,8 @@ function setup() {
   });
 }
 
-let img;
 
-function preload() {
-  img = loadImage('goose.png'); // Replace 'path/to/your/image.jpg' with the actual path to your image
-}
+
 
 /*
  * Draw
