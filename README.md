@@ -6,7 +6,7 @@
 
 However, a non-insignificant 31% of Canadians plan to buy crypto assets in that time frame.
 
-So how do we lower the barrier of entry?
+So how do we lower the barrier of entry to crypto, blockchain, and Web3 services?
 
 With Goose.ai! 🤖
 
