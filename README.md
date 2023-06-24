@@ -11,6 +11,8 @@
 ✅ WorldCoin NLP AI Helper
 Get Userinfo through text
 
+Client Secret: sk_f0981d4c3889cdd4407d78a843f3de00a68ad4d8b233bea3
+
 ### Polygon
 
 🏊‍♂️ $2,000 Build #onPolygon in Public Pool Prize:
