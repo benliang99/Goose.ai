@@ -126,18 +126,6 @@ export default function Home() {
                   boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
                   transition: "background-color 0.3s",
                 }}
-                onMouseEnter={(e) => {
-                  e.target.style.backgroundColor = "#0056b3";
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = "#007bff";
-                }}
-                onMouseDown={(e) => {
-                  e.target.style.backgroundColor = "#003d7b";
-                }}
-                onMouseUp={(e) => {
-                  e.target.style.backgroundColor = "#0056b3";
-                }}
               >
                 Verify with World ID
               </button>
