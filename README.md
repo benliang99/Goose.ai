@@ -15,6 +15,8 @@ Client ID: app_staging_dfbbb6c8ef7b17bae66db523a50c4b30
 Client Secret: sk_f0981d4c3889cdd4407d78a843f3de00a68ad4d8b233bea3
 Basic Token (encoded using Base64): YXBwX3N0YWdpbmdfZGZiYmI2YzhlZjdiMTdiYWU2NmRiNTIzYTUwYzRiMzA6c2tfZjA5ODFkNGMzODg5Y2RkNDQwN2Q3OGE4NDNmM2RlMDBhNjhhZDRkOGIyMzNiZWEz
 
+Get authorization code using orb
+
 ### Polygon
 
 🏊‍♂️ $2,000 Build #onPolygon in Public Pool Prize:
