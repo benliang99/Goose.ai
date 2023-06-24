@@ -2,8 +2,7 @@
 
 ## 💡 Inspiration 
 
-**The barrier of entry to Web3 is HIGH.** The Ontario Securities Commission published a Crypto Asset Survey Report (September 26, 2022), finding
-that the average crypto asset knowledge score was 37%, and that while half (51%) could accurately define crypto assets, few felt particularly familiar and most lacked a working knowledge of the practical, legal, or regulatory dimensions of crypto assets. 
+**The barrier of entry to Web3 is HIGH.** On September 26, 2022, The Ontario Securities Commission published a Crypto Asset Survey Report (September 26, 2022) and found that amongst Canadians, the average crypto asset knowledge score was 37%, 51% could accurately define crypto assets, few felt particularly familiar and most lacked a working knowledge of the practical, legal, or regulatory dimensions of crypto assets. 
 
 However, a non-insignificant 31% of Canadians plan to buy crypto assets in that time frame.
 So how do we lower the barrier of entry?
