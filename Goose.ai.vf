@@ -19,7 +19,7 @@
       "generateNoMatch": true
     },
     "_version": 1.2,
-    "updatedAt": "2023-06-24T16:38:05.162Z",
+    "updatedAt": "2023-06-24T20:08:57.220Z",
     "creatorID": 130974,
     "updatedBy": 130974,
     "apiPrivacy": "public",
@@ -32,7 +32,7 @@
         "type": "VFNLU"
       }
     },
-    "liveVersion": "64966610ab7f1b0007195437",
+    "liveVersion": "64973ceacba8be000738c700",
     "createdAt": "2023-06-24T01:34:42.000Z"
   },
   "version": {
@@ -488,6 +488,12 @@
           "name": "Get Ethereum Balance",
           "inputs": [],
           "slots": []
+        },
+        {
+          "key": "gg1ja38ax",
+          "name": "Mint Polygon POAP",
+          "inputs": [],
+          "slots": []
         }
       ],
       "settings": {
@@ -564,7 +570,7 @@
           "64964832cba8be000738c64d"
         ],
         "rootDiagramID": "64964832cba8be000738c63f",
-        "updatedAt": "2023-06-24T03:41:30.342Z",
+        "updatedAt": "2023-06-24T20:08:33.728Z",
         "updatedBy": 130974
       }
     ],
@@ -778,6 +784,16 @@
             "slots": []
           },
           {
+            "key": "gg1ja38ax",
+            "name": "Mint Polygon POAP",
+            "inputs": [
+              {
+                "text": "Mint Polygon POAP"
+              }
+            ],
+            "slots": []
+          },
+          {
             "key": "capture_name_ahjokmdl",
             "name": "capture_name_ahjokmdl",
             "inputs": [],
@@ -878,7 +894,8 @@
           "a21kw3ndn",
           "gk28o3n6m",
           "1vg338ee",
-          "66hp38kb"
+          "66hp38kb",
+          "gg1ja38ax"
         ],
         "platform": "webchat",
         "goToIntentsSet": [],
@@ -10631,6 +10648,10 @@
         {
           "type": "NODE",
           "sourceID": "649661ed55b0bba16cc63ed4"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "64972d8929a80b53b404edbf"
         }
       ],
       "creatorID": 130974,
@@ -12228,6 +12249,20 @@
                   {
                     "children": [
                       {
+                        "text": "Honk Honk! 🦆"
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
                         "text": "Welcome to Goose.ai - Your personal Blockchain GPT-4 Assistant for everything ETHWaterloo related! 😄"
                       }
                     ]
@@ -12248,7 +12283,11 @@
               "dynamic": []
             }
           },
-          "nodeID": "6495e9345ddb3d97cd112921"
+          "nodeID": "6495e9345ddb3d97cd112921",
+          "coords": [
+            0,
+            0
+          ]
         },
         "6495e9345ddb3d97cd112923": {
           "type": "block",
@@ -12261,8 +12300,8 @@
           },
           "nodeID": "6495e9345ddb3d97cd112923",
           "coords": [
-            475.1325088971752,
-            -490.22212092922183
+            487.043998246557,
+            -605.3665179732458
           ]
         },
         "6495e95a5ddb3d97cd112a30": {
@@ -12279,13 +12318,45 @@
                   "type": "next",
                   "target": "6495e9345ddb3d97cd112923",
                   "id": "6495e95a5ddb3d97cd112a31",
-                  "data": {}
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -104.89,
+                          -542.51
+                        ]
+                      },
+                      {
+                        "point": [
+                          108.58,
+                          -542.51
+                        ]
+                      },
+                      {
+                        "point": [
+                          108.58,
+                          -578.37
+                        ]
+                      },
+                      {
+                        "point": [
+                          322.04,
+                          -578.37
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
                 }
               },
               "dynamic": []
             }
           },
-          "nodeID": "6495e95a5ddb3d97cd112a30"
+          "nodeID": "6495e95a5ddb3d97cd112a30",
+          "coords": [
+            0,
+            0
+          ]
         },
         "6495e95a5ddb3d97cd112a32": {
           "type": "block",
@@ -12306,6 +12377,11 @@
           "data": {
             "name": "Buttons",
             "buttons": [
+              {
+                "id": "o7an31j7",
+                "name": "Mint my POAP!",
+                "actions": []
+              },
               {
                 "id": "tu11b3n57",
                 "name": "Backup NFT",
@@ -12338,6 +12414,12 @@
                 }
               },
               "dynamic": [
+                {
+                  "id": "64973359d1c8be2c00ed9b20",
+                  "type": "",
+                  "target": "64973368d1c8be2c00ed9b23",
+                  "data": {}
+                },
                 {
                   "type": "",
                   "target": "6495f9595ddb3d97cd112f3d",
@@ -12494,20 +12576,20 @@
                       },
                       {
                         "point": [
-                          1239.57,
+                          1259.49,
                           1101.38
                         ]
                       },
                       {
                         "point": [
-                          1239.57,
-                          1278.32
+                          1259.49,
+                          1246.44
                         ]
                       },
                       {
                         "point": [
-                          1551.93,
-                          1278.32
+                          1591.78,
+                          1246.44
                         ],
                         "allowedToTop": false
                       }
@@ -12635,7 +12717,11 @@
               "dynamic": []
             }
           },
-          "nodeID": "6495ea4c5ddb3d97cd112b79"
+          "nodeID": "6495ea4c5ddb3d97cd112b79",
+          "coords": [
+            0,
+            0
+          ]
         },
         "6495ea4c5ddb3d97cd112b7b": {
           "type": "block",
@@ -12647,8 +12733,8 @@
           },
           "nodeID": "6495ea4c5ddb3d97cd112b7b",
           "coords": [
-            1717.93174003392,
-            1198.8204156477743
+            1757.7784224963073,
+            1166.943069677864
           ]
         },
         "6495ec775ddb3d97cd112ca9": {
@@ -12908,8 +12994,8 @@
           },
           "nodeID": "6495f6fe5ddb3d97cd112ec7",
           "coords": [
-            1571.25649709704,
-            1955.1657820267362
+            1627.2159487060433,
+            1931.5724037911432
           ]
         },
         "6495f6fe5ddb3d97cd112ec9": {
@@ -13067,26 +13153,26 @@
                     "points": [
                       {
                         "point": [
-                          1304.38,
-                          2042.89
+                          1301.77,
+                          2040.76
                         ]
                       },
                       {
                         "point": [
-                          1355.32,
-                          2042.89
+                          1380.69,
+                          2040.76
                         ]
                       },
                       {
                         "point": [
-                          1355.32,
-                          1982.17
+                          1380.69,
+                          1956.44
                         ]
                       },
                       {
                         "point": [
-                          1406.26,
-                          1982.17
+                          1459.61,
+                          1956.44
                         ],
                         "allowedToTop": true
                       }
@@ -13163,19 +13249,19 @@
                     "points": [
                       {
                         "point": [
-                          1737.26,
-                          2106.67
+                          1793.22,
+                          2083.07
                         ]
                       },
                       {
                         "point": [
-                          1874.29,
-                          2106.67
+                          1902.27,
+                          2083.07
                         ]
                       },
                       {
                         "point": [
-                          1874.29,
+                          1902.27,
                           1975.26
                         ]
                       },
@@ -13272,7 +13358,35 @@
                   "type": "next",
                   "target": "6495f6fe5ddb3d97cd112ec3",
                   "id": "6495f7125ddb3d97cd112efe",
-                  "data": {}
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          386.09,
+                          2105.86
+                        ]
+                      },
+                      {
+                        "point": [
+                          441.86,
+                          2105.86
+                        ]
+                      },
+                      {
+                        "point": [
+                          441.86,
+                          1966.49
+                        ]
+                      },
+                      {
+                        "point": [
+                          497.63,
+                          1966.49
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
                 },
                 "else": {
                   "type": "else",
@@ -13299,7 +13413,35 @@
                   "type": "next",
                   "target": "6495f7125ddb3d97cd112ef8",
                   "id": "6495f7fa5ddb3d97cd112f09",
-                  "data": {}
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -243.7,
+                          1963.03
+                        ]
+                      },
+                      {
+                        "point": [
+                          -94.3,
+                          1963.03
+                        ]
+                      },
+                      {
+                        "point": [
+                          -94.3,
+                          1981.36
+                        ]
+                      },
+                      {
+                        "point": [
+                          55.09,
+                          1981.36
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
                 }
               },
               "dynamic": []
@@ -13338,26 +13480,26 @@
                     "points": [
                       {
                         "point": [
-                          2366.17,
-                          2144.84
+                          2479.51,
+                          2199.51
                         ]
                       },
                       {
                         "point": [
-                          2516.84,
-                          2144.84
+                          2604.62,
+                          2199.51
                         ]
                       },
                       {
                         "point": [
-                          2516.84,
-                          2028.66
+                          2604.62,
+                          2008.66
                         ]
                       },
                       {
                         "point": [
-                          2667.51,
-                          2028.66
+                          2729.73,
+                          2008.66
                         ],
                         "allowedToTop": false
                       }
@@ -14326,7 +14468,35 @@
                   "type": "next",
                   "target": "64965f23b56b63e767dc8f09",
                   "id": "649661d355b0bba16cc63ece",
-                  "data": {}
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -266.38,
+                          2361.43
+                        ]
+                      },
+                      {
+                        "point": [
+                          -184.7,
+                          2361.43
+                        ]
+                      },
+                      {
+                        "point": [
+                          -184.7,
+                          2299.42
+                        ]
+                      },
+                      {
+                        "point": [
+                          -103.02,
+                          2299.42
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
                 }
               },
               "dynamic": []
@@ -14639,6 +14809,1412 @@
           "coords": [
             621.0346338633874,
             2727.9122353929797
+          ]
+        },
+        "64972d8929a80b53b404edad": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "color": "",
+            "steps": [
+              "64972d8929a80b53b404edbf"
+            ]
+          },
+          "nodeID": "64972d8929a80b53b404edad",
+          "coords": [
+            -1761.4891149424457,
+            3377.8878286538416
+          ]
+        },
+        "64972d8929a80b53b404edaf": {
+          "type": "block",
+          "data": {
+            "name": "New Block 1",
+            "color": "",
+            "steps": [
+              "64972d8929a80b53b404edc1",
+              "64972d8929a80b53b404edc4"
+            ]
+          },
+          "nodeID": "64972d8929a80b53b404edaf",
+          "coords": [
+            -1342.8755823779566,
+            3188.3640191300337
+          ]
+        },
+        "64972d8929a80b53b404edb7": {
+          "type": "block",
+          "data": {
+            "name": "New Block 23",
+            "color": "",
+            "steps": [
+              "64972d8929a80b53b404ede0"
+            ]
+          },
+          "nodeID": "64972d8929a80b53b404edb7",
+          "coords": [
+            664.3054265067558,
+            3552.6162537191176
+          ]
+        },
+        "64972d8929a80b53b404edb9": {
+          "type": "block",
+          "data": {
+            "name": "New Block 29",
+            "color": "",
+            "steps": [
+              "64972d8929a80b53b404ede4"
+            ]
+          },
+          "nodeID": "64972d8929a80b53b404edb9",
+          "coords": [
+            1332.7605091177036,
+            3163.158446374615
+          ]
+        },
+        "64972d8929a80b53b404edbb": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "64972d8929a80b53b404ede7"
+            ]
+          },
+          "nodeID": "64972d8929a80b53b404edbb",
+          "coords": [
+            -1562.9683420564768,
+            1233.9996830337022
+          ]
+        },
+        "64972d8929a80b53b404edbd": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "64972d8929a80b53b404ede9"
+            ]
+          },
+          "nodeID": "64972d8929a80b53b404edbd",
+          "coords": [
+            -1562.9683420564768,
+            1233.9996830337022
+          ]
+        },
+        "64972d8929a80b53b404edbf": {
+          "type": "intent",
+          "data": {
+            "name": "",
+            "mappings": [],
+            "availability": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64972d8929a80b53b404edaf",
+                  "id": "64972d8929a80b53b404edbe",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            },
+            "intent": "gg1ja38ax"
+          },
+          "nodeID": "64972d8929a80b53b404edbf"
+        },
+        "64972d8929a80b53b404edc1": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "8i3om3ng7",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Please enter your "
+                      },
+                      {
+                        "text": "Polygon",
+                        "fontWeight": "700"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "text": "Wallet Address",
+                        "fontWeight": "700"
+                      },
+                      {
+                        "text": ":"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64972d8929a80b53b404edc4",
+                  "id": "64972d8929a80b53b404edc2"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64972d8929a80b53b404edc1"
+        },
+        "64972d8929a80b53b404edc4": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "nftWalletAddress"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64972dae29a80b53b404ee2d",
+                  "id": "64972d8929a80b53b404edc5",
+                  "data": {}
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64972d8929a80b53b404edc6"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64972d8929a80b53b404edc4",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64972d8929a80b53b404eddd": {
+          "type": "visual",
+          "data": {
+            "name": "Visuals",
+            "image": "{nftImageUrl}",
+            "visualType": "image",
+            "canvasVisibility": "full",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497389c5db6cb60bc518f28",
+                  "id": "64972d8929a80b53b404edde",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64972d8929a80b53b404eddd"
+        },
+        "64972d8929a80b53b404ede0": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://quiet-compatible-morning.matic-testnet.discover.quiknode.pro/766547a2fb1d1b9bb9c77babd3c3d10a3d91ab7e",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "content-type",
+                "val": "application/json"
+              }
+            ],
+            "content": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"cm_mintNFT\",\r\n    \"params\": [\r\n      \"default\",\r\n      \"polygon:{nftWalletAddress}\",\r\n      {\r\n        \"name\": \"POAP for ETHWaterloo 2023\",\r\n        \"image\": \"{nftImageUrl}\",\r\n        \"description\": \"Congrats for making it to ETHWaterloo!\"\r\n      }\r\n    ]\r\n  }",
+            "mappings": [
+              {
+                "path": "response.result",
+                "var": "nft_mint_response"
+              },
+              {
+                "path": "response.result.onChain.contractAddress",
+                "var": "contractAddress"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64972d8929a80b53b404edbb",
+                  "id": "64972d8929a80b53b404ede2",
+                  "data": {}
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "64972d8929a80b53b404ede1"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64972d8929a80b53b404ede0",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64972d8929a80b53b404ede4": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "jy2cf3nfb",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Polygon NFT POAP for ETHWaterloo 2023 Successfully Minted! 🤩"
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Transaction ID: "
+                      },
+                      {
+                        "id": "transactionID",
+                        "name": "transactionID",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Transaction Hash: "
+                      },
+                      {
+                        "id": "transactionHash",
+                        "name": "transactionHash",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Transaction Details: "
+                      },
+                      {
+                        "id": "transaction_details",
+                        "name": "transaction_details",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Polygon Scan Link: ",
+                        "color": {
+                          "r": 59,
+                          "g": 64,
+                          "b": 66,
+                          "a": 1
+                        },
+                        "underline": false
+                      },
+                      {
+                        "id": "blockExplorer",
+                        "name": "blockExplorer",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64972d8929a80b53b404edbd",
+                  "id": "64972d8929a80b53b404ede5",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64972d8929a80b53b404ede4"
+        },
+        "64972d8929a80b53b404ede7": {
+          "type": "code",
+          "data": {
+            "name": "",
+            "code": "last_response_stringified = JSON.stringify(nft_mint_response)",
+            "paths": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64972d8929a80b53b404ede4",
+                  "id": "64972d8929a80b53b404ede8",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          916.5416579435234,
+                          3433.5096830337025
+                        ]
+                      },
+                      {
+                        "point": [
+                          1041.651657943523,
+                          3433.5096830337025
+                        ]
+                      },
+                      {
+                        "point": [
+                          1041.651657943523,
+                          3242.659683033702
+                        ]
+                      },
+                      {
+                        "point": [
+                          1166.7616579435232,
+                          3242.659683033702
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "64972d8929a80b53b404ede6"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64972d8929a80b53b404ede7"
+        },
+        "64972d8929a80b53b404ede9": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "4nvr3nw0",
+            "diagramID": "64964832cba8be000738c64d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "64972d8929a80b53b404ede9"
+        },
+        "64972dae29a80b53b404ee2c": {
+          "type": "setV2",
+          "data": {
+            "name": "",
+            "sets": [
+              {
+                "type": "advance",
+                "variable": "nftName",
+                "expression": "\"ETHWaterloo 2023 POAP\""
+              },
+              {
+                "type": "advance",
+                "variable": "nftDescription",
+                "expression": "\"Mr. Goose NFT generated by Goose.ai!\""
+              },
+              {
+                "type": "advance",
+                "variable": null,
+                "expression": ""
+              }
+            ],
+            "title": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64972e3d29a80b53b404ee46",
+                  "id": "64972dae29a80b53b404ee2e",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -900.88,
+                          3362.36
+                        ]
+                      },
+                      {
+                        "point": [
+                          -856.91,
+                          3362.36
+                        ]
+                      },
+                      {
+                        "point": [
+                          -856.91,
+                          3336.68
+                        ]
+                      },
+                      {
+                        "point": [
+                          -812.94,
+                          3336.68
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64972dae29a80b53b404ee2c"
+        },
+        "64972dae29a80b53b404ee2d": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "64972dae29a80b53b404ee2c"
+            ]
+          },
+          "nodeID": "64972dae29a80b53b404ee2d",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64972e3d29a80b53b404ee46": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "nm1bd38fe",
+                "name": "Nouns",
+                "actions": []
+              },
+              {
+                "id": "021bw387t",
+                "name": "Original Mr. Goose",
+                "actions": []
+              },
+              {
+                "id": "yj1c938b1",
+                "name": "Generated Mr. Goose",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64972e3d29a80b53b404ee48"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "64973a456cf3c36c885121ee",
+                  "id": "64972e3d29a80b53b404ee47",
+                  "data": {}
+                },
+                {
+                  "id": "64972e4129a80b53b404ee4f",
+                  "type": "",
+                  "target": "64972ec029a80b53b404ee5e",
+                  "data": {}
+                },
+                {
+                  "id": "64972e4a29a80b53b404ee52",
+                  "type": "",
+                  "target": "649731e529a80b53b404ee7d",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -480.94,
+                          3445.93
+                        ]
+                      },
+                      {
+                        "point": [
+                          -378.83,
+                          3445.93
+                        ]
+                      },
+                      {
+                        "point": [
+                          -378.83,
+                          3524.94
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "nodeID": "64972e3d29a80b53b404ee46",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64972e3d29a80b53b404ee49": {
+          "type": "block",
+          "data": {
+            "name": "New Block 41",
+            "steps": [
+              "64972e3d29a80b53b404ee46"
+            ]
+          },
+          "nodeID": "64972e3d29a80b53b404ee49",
+          "coords": [
+            -646.9401545969187,
+            3257.185020604803
+          ]
+        },
+        "64972ec029a80b53b404ee5d": {
+          "type": "setV2",
+          "data": {
+            "name": "",
+            "sets": [
+              {
+                "type": "advance",
+                "variable": "nftImageUrl",
+                "expression": "\"https://s12.gifyu.com/images/SQ4kU.gif\""
+              }
+            ],
+            "title": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497324b29a80b53b404ee8b",
+                  "id": "64972ec029a80b53b404ee5f",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64972ec029a80b53b404ee5d"
+        },
+        "64972ec029a80b53b404ee5e": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "64972ec029a80b53b404ee5d"
+            ]
+          },
+          "nodeID": "64972ec029a80b53b404ee5e",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6497315629a80b53b404ee6f": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://api.edenai.run/v2/image/generation",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "accept",
+                "val": "application/json"
+              },
+              {
+                "key": "authorization",
+                "val": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZmE5OTNjNmItOTk5NC00ZTRkLWFiNmItZjEzYTUwNGNjYzZkIiwidHlwZSI6ImFwaV90b2tlbiJ9.UMgdzNGepIj3N33BNp0gYlWV2xqMopUWuUI1SDZni0g"
+              },
+              {
+                "key": "content-type",
+                "val": "application/json"
+              }
+            ],
+            "content": "{\r\n  \"response_as_dict\": true,\r\n  \"attributes_as_list\": false,\r\n  \"show_original_response\": false,\r\n  \"resolution\": \"256x256\",\r\n  \"num_images\": 1,\r\n  \"providers\": \"openai\",\r\n  \"text\": \"Canada goose with the traits of {last_utterance}\"\r\n}",
+            "mappings": [
+              {
+                "path": "openai.items[0].image_resource_url",
+                "var": "nftImageUrl"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497324b29a80b53b404ee8b",
+                  "id": "6497315629a80b53b404ee70",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -295.21,
+                          4093.42
+                        ]
+                      },
+                      {
+                        "point": [
+                          -140.36,
+                          4093.42
+                        ]
+                      },
+                      {
+                        "point": [
+                          -140.36,
+                          3481.3
+                        ]
+                      },
+                      {
+                        "point": [
+                          14.49,
+                          3481.3
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "6497315629a80b53b404ee71"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497315629a80b53b404ee6f"
+        },
+        "6497315629a80b53b404ee72": {
+          "type": "block",
+          "data": {
+            "name": "New Block 42",
+            "steps": [
+              "6497315629a80b53b404ee6f"
+            ]
+          },
+          "nodeID": "6497315629a80b53b404ee72",
+          "coords": [
+            -461.2117525641685,
+            3920.1731158429006
+          ]
+        },
+        "649731e529a80b53b404ee7b": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "ig1t338ss",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "What traits do you want your goose to have? (e.g. Blue feathers, wearing tophat)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "649731e529a80b53b404ee7c"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649731e529a80b53b404ee7b"
+        },
+        "649731e529a80b53b404ee7d": {
+          "type": "block",
+          "data": {
+            "name": "New Block 43",
+            "steps": [
+              "649731e529a80b53b404ee7b",
+              "6497320b29a80b53b404ee84"
+            ]
+          },
+          "nodeID": "649731e529a80b53b404ee7d",
+          "coords": [
+            -378.83080018321607,
+            3524.935020604803
+          ]
+        },
+        "6497320b29a80b53b404ee84": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "last_utterance"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497315629a80b53b404ee72",
+                  "id": "6497320b29a80b53b404ee85",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -544.83,
+                          3721.43
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          -568.83,
+                          3721.43
+                        ]
+                      },
+                      {
+                        "point": [
+                          -568.83,
+                          3820.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          -461.21,
+                          3820.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          -461.21,
+                          3920.17
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "6497320b29a80b53b404ee86"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497320b29a80b53b404ee84"
+        },
+        "6497324b29a80b53b404ee8b": {
+          "type": "block",
+          "data": {
+            "name": "New Block 44",
+            "steps": [
+              "649734afd1c8be2c00ed9b2b",
+              "64972d8929a80b53b404eddd"
+            ]
+          },
+          "nodeID": "6497324b29a80b53b404ee8b",
+          "coords": [
+            179.48780198755975,
+            3454.2993721952444
+          ]
+        },
+        "64973368d1c8be2c00ed9b22": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "gg1ja38ax",
+            "diagramID": "64964832cba8be000738c64d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "64973368d1c8be2c00ed9b22"
+        },
+        "64973368d1c8be2c00ed9b23": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "64973368d1c8be2c00ed9b22"
+            ]
+          },
+          "nodeID": "64973368d1c8be2c00ed9b23",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "649734afd1c8be2c00ed9b2b": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "rhzb311u",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Name: "
+                      },
+                      {
+                        "id": "nftName",
+                        "name": "nftName",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Description: "
+                      },
+                      {
+                        "id": "nftDescription",
+                        "name": "nftDescription",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Image URL: "
+                      },
+                      {
+                        "id": "nftImageUrl",
+                        "name": "nftImageUrl",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "649734afd1c8be2c00ed9b2c"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649734afd1c8be2c00ed9b2b"
+        },
+        "649737bad1c8be2c00ed9b70": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "649737bad1c8be2c00ed9b76"
+            ]
+          },
+          "nodeID": "649737bad1c8be2c00ed9b70",
+          "coords": [
+            -1501.3003742494097,
+            1381.4498341774506
+          ]
+        },
+        "649737bad1c8be2c00ed9b72": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://quiet-compatible-morning.matic-testnet.discover.quiknode.pro/766547a2fb1d1b9bb9c77babd3c3d10a3d91ab7e",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "content-type",
+                "val": "application/json"
+              }
+            ],
+            "content": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"cm_mintNFT\",\r\n    \"params\": [\r\n      \"default\",\r\n      \"polygon:{nftWalletAddress}\",\r\n      {\r\n        \"name\": \"POAP for ETHWaterloo 2023\",\r\n        \"image\": \"https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/423/408/datas/original.png\",\r\n        \"description\": \"Congrats for making it to ETHWaterloo!\"\r\n      }\r\n    ]\r\n  }",
+            "mappings": [
+              {
+                "path": "response.result",
+                "var": "nft_mint_response"
+              },
+              {
+                "path": "response.result.onChain.contractAddress",
+                "var": "contractAddress"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649737bad1c8be2c00ed9b70",
+                  "id": "649737bad1c8be2c00ed9b74",
+                  "data": {}
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "649737bad1c8be2c00ed9b73"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649737bad1c8be2c00ed9b72"
+        },
+        "649737bad1c8be2c00ed9b76": {
+          "type": "code",
+          "data": {
+            "name": "",
+            "code": "last_response_stringified = JSON.stringify(nft_mint_response)",
+            "paths": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64972d8929a80b53b404edb9",
+                  "id": "649737bad1c8be2c00ed9b77",
+                  "data": {}
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "649737bad1c8be2c00ed9b75"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649737bad1c8be2c00ed9b76"
+        },
+        "649737bad1c8be2c00ed9b79": {
+          "type": "block",
+          "data": {
+            "name": "New Block 23 copy",
+            "color": "",
+            "steps": [
+              "649737bad1c8be2c00ed9b72"
+            ]
+          },
+          "nodeID": "649737bad1c8be2c00ed9b79",
+          "coords": [
+            643.9733943138231,
+            3204.066404862866
+          ]
+        },
+        "6497389c5db6cb60bc518f24": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://api.verbwire.com/v1/nft/mint/quickMintFromMetadata",
+            "body": [
+              {
+                "key": "chain",
+                "val": "mumbai"
+              },
+              {
+                "key": "name",
+                "val": "{{[nftName].nftName}}"
+              },
+              {
+                "key": "description",
+                "val": "{{[nftDescription].nftDescription}}"
+              },
+              {
+                "key": "recipientAddress",
+                "val": "{{[nftWalletAddress].nftWalletAddress}}"
+              },
+              {
+                "key": "data",
+                "val": "{{[nftImageUrl].nftImageUrl}}"
+              },
+              {
+                "key": "imageUrl",
+                "val": "{{[nftImageUrl].nftImageUrl}}"
+              }
+            ],
+            "params": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "X-API-Key",
+                "val": "sk_live_6c1b9c9b-6b4e-43de-a5d8-ebb8a4f85a8c"
+              },
+              {
+                "key": "accept",
+                "val": "application/json"
+              },
+              {
+                "key": "content-type",
+                "val": "multipart/form-data"
+              }
+            ],
+            "content": "chain=goerli \\\n     --form name=SampleNFTName \\\n     --form 'description=Sample Description' \\\n     --form imageUrl=https://yt3.googleusercontent.com/ytc/AGIKgqPSIAtM6gBsaKk8mA2RgRivb1y9IRPuKiHWtBDfPQ=s900-c-k-c0x00ffffff-no-rj \\\n     --form data=https://yt3.googleusercontent.com/ytc/AGIKgqPSIAtM6gBsaKk8mA2RgRivb1y9IRPuKiHWtBDfPQ=s900-c-k-c0x00ffffff-no-rj \\\n     --form recipientAddress=0x0E5d299236647563649526cfa25c39d6848101f5",
+            "mappings": [
+              {
+                "path": "transaction_details.transactionHash",
+                "var": "transactionHash"
+              },
+              {
+                "path": "transaction_details.blockExplorer",
+                "var": "blockExplorer"
+              },
+              {
+                "path": "transaction_details.transactionID",
+                "var": "transactionID"
+              },
+              {
+                "path": "transaction_details",
+                "var": "transaction_details"
+              },
+              {
+                "path": "",
+                "var": null
+              }
+            ],
+            "bodyType": "formData",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64972d8929a80b53b404edb9",
+                  "id": "6497389c5db6cb60bc518f26",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          827.19,
+                          4084.16
+                        ]
+                      },
+                      {
+                        "point": [
+                          997.48,
+                          4084.16
+                        ]
+                      },
+                      {
+                        "point": [
+                          997.48,
+                          3190.16
+                        ]
+                      },
+                      {
+                        "point": [
+                          1167.76,
+                          3190.16
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "6497389c5db6cb60bc518f25",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          452.69823456499876,
+                          4343.6491600264635
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          367.9882345649987,
+                          4343.6491600264635
+                        ]
+                      },
+                      {
+                        "point": [
+                          367.9882345649987,
+                          4521.449160026464
+                        ]
+                      },
+                      {
+                        "point": [
+                          391.9882345649987,
+                          4521.449160026464
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497389c5db6cb60bc518f24",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6497389c5db6cb60bc518f28": {
+          "type": "block",
+          "data": {
+            "name": "AI response output copy",
+            "color": "#56b365",
+            "steps": [
+              "6497389c5db6cb60bc518f24"
+            ]
+          },
+          "nodeID": "6497389c5db6cb60bc518f28",
+          "coords": [
+            661.1907250525494,
+            3910.9070070710013
+          ]
+        },
+        "64973a456cf3c36c885121ed": {
+          "type": "code",
+          "data": {
+            "name": "",
+            "code": "nftImageUrl = \"https://noun-api.com/beta/pfp?name=\" + nftWalletAddress",
+            "paths": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497324b29a80b53b404ee8b",
+                  "id": "64973a456cf3c36c885121ef",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -343.75,
+                          3336.94
+                        ]
+                      },
+                      {
+                        "point": [
+                          -164.63,
+                          3336.94
+                        ]
+                      },
+                      {
+                        "point": [
+                          -164.63,
+                          3481.3
+                        ]
+                      },
+                      {
+                        "point": [
+                          14.49,
+                          3481.3
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "64973a456cf3c36c885121f0"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64973a456cf3c36c885121ed"
+        },
+        "64973a456cf3c36c885121ee": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "64973a456cf3c36c885121ed"
+            ]
+          },
+          "nodeID": "64973a456cf3c36c885121ee",
+          "coords": [
+            0,
+            0
           ]
         }
       }
