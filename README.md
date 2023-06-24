@@ -9,6 +9,9 @@
 🏊‍♂️ Pool Prize — $3,000 distributed between all qualifying submissions
 
 ✅ WorldCoin NLP AI Helper
+Get Userinfo through text
+
+Client Secret: sk_f0981d4c3889cdd4407d78a843f3de00a68ad4d8b233bea3
 
 ### Polygon
 
@@ -127,4 +130,8 @@ CryptoGeese NFT Collection
 
 An interchain application is an app that communicates between chains, it either transfers assets or has interchain function calls. The winner of this prize would be the most compelling application that leverages Hyperlane, and benefits from its presence on multiple chains!
 
+### Compound
 
+$5,000 USD to the single best integration of Compound III. The project must interact (smart contract or JSON RPC) with any instance of the v3 protocol or governance system, or be a supportive project specifically created for the Compound community's use.
+
+Chatbot for performing Compound financial actions (e.g. borrowing and supply assets).
