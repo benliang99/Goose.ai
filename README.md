@@ -18,6 +18,8 @@ Deploy your smart contract on Polygon (Polygon PoS Mainnet, Polygon PoS Mumbai T
 
 🏊 Prize Pool: 8 teams x $500 each (paid in FIL)
 
+✅ Project: Backup NFTs on any chain using Web3.Storage API
+
 Tech: IPFS and Web3.Storage
 
 ### UMA
