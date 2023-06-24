@@ -4,6 +4,10 @@
 
 ## Pool Prizes
 
+### WorldCoin
+
+🏊‍♂️ Pool Prize — $3,000 distributed between all qualifying submissions
+
 ### Polygon
 
 🏊‍♂️ $2,000 Build #onPolygon in Public Pool Prize:
@@ -14,4 +18,6 @@ Deploy your smart contract on Polygon (Polygon PoS Mainnet, Polygon PoS Mumbai T
 
 🏊 Prize Pool: 8 teams x $500 each (paid in FIL)
 
-IPFS and Web3.Storage
+Tech: IPFS and Web3.Storage
+
+
