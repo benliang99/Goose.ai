@@ -1,4 +1,14 @@
-# Goose.ai
+# 🇨🇦 Goose.ai
+
+## 💡 Inspiration 
+
+The barrier of entry to Web3 is high. Although 33 million adult Americans (10%!) intend to buy their first crypto asset, 36% are not familiar with cryptocurrencies and 29% find them too complicated to understand.
+
+
+
+## ❓ What it does
+
+Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatbot to increase accessibility to Web3 services and blockchain data visualization tools. Ask questions about specific Web3 technologies, get insights on live data feeds, and **make blockchain state changes** all through chat.
 
 Features:
 1. Mint your own ETHWaterloo 2023 POAP via text using Goose.ai **(Quicknode NFT API, Polygon)**.
@@ -8,7 +18,17 @@ Features:
 6. Backup your NFTs on any chain through chat **(IPFS and Web3.Storage)**
 7. Secure authentication login **(WorldCoin)**
 
-# Bounties
+
+## 🚧 How we built it 
+
+
+Check out our [DevPost page!](placeholder)
+Goose.ai is a [ETH Waterloo]() project.
+
+
+# 🏆 Bounties
+
+##
 
 ## Pool Prizes
 
