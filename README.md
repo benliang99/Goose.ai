@@ -14,6 +14,10 @@
 
 Deploy your smart contract on Polygon (Polygon PoS Mainnet, Polygon PoS Mumbai Testnet, Polygon zkEVM Mainnet, or the Polygon zkEVM Testnet) and provide a link to the smart contract and your tweet. All teams that satisfy these requirements will split the pool prize.
 
+✅ Deploy Polygon Smart Contract using chat - Verbwire
+✅ Mint Polygon NFT through chat
+Deploy Polygon Token through chat
+
 ### IPFS, Filecoin & more
 
 🏊 Prize Pool: 8 teams x $500 each (paid in FIL)
