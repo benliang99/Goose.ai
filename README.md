@@ -30,3 +30,13 @@ Pool Prize: Build and deploy or use an existing subgraph that indexes data from 
 
 🏅 Pool Prize: $2000
 
+## Bounties
+
+### Quicknode
+
+Best 5 projects using QuickNode RPC gets $400 each selected project = $2,000 total
+Best use of Token API gets $1,500
+Best use of NFT API gets $1,500 
+Total prize bounty = $5,000
+
+
