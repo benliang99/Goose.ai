@@ -20,4 +20,13 @@ Deploy your smart contract on Polygon (Polygon PoS Mainnet, Polygon PoS Mumbai T
 
 Tech: IPFS and Web3.Storage
 
+### UMA
+
+🏊 Pool Prize — $3,000 distributed between all qualifying submissions
+
+### The Graph
+
+Pool Prize: Build and deploy or use an existing subgraph that indexes data from a smart contract to query blockchain data to your dapp.
+
+🏅 Pool Prize: $2000
 
