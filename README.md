@@ -47,6 +47,10 @@ Best use of Token API gets $1,500
 Best use of NFT API gets $1,500 
 Total prize bounty = $5,000
 
+✅ Mint Polygon NFT through chat using QuickNode NFT API
+Deploy Polygon Token through chat
+
+
 ### Airstack
 
 Prizes
