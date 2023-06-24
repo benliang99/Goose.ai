@@ -2,9 +2,11 @@
 
 ## 💡 Inspiration 
 
-The barrier of entry to Web3 is high. Although 33 million adult Americans (10%!) intend to buy their first crypto asset, 36% are not familiar with cryptocurrencies and 29% find them too complicated to understand.
+**The barrier of entry to Web3 is high.** The Ontario Securities Commission published a Crypto Asset Survey Report on September 26, 2022, finding
+that the average crypto asset knowledge score was 37%, and that while half (51%) could accurately define
+crypto assets, few felt particularly familiar and most lacked a working knowledge of the practical, legal, or regulatory dimensions of crypto assets. However,  31% of Canadians plan to buy crypto assets in that time frame.
 
-
+How do we lower the barrier of entry? With Goose.ai!
 
 ## ❓ What it does
 
