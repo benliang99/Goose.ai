@@ -93,8 +93,7 @@ DO THIS!!!! —--> deploy https://rpc.goerli.linea.build ←—------
 
 🎨 $2,000 - Best Nouns Artwork Use
 
-
-Chatbot for viewing Nouns artwork
+✅ Using Nouns artwork to generate unique POAPs!
 
 Nouns Dev Resources
 GitHub - https://github.com/nounsDAO
