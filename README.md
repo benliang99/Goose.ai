@@ -1,12 +1,12 @@
 # Goose.ai
 
 Features:
-1. Mint your own ETHWaterloo 2023 POAP over text using Goose.ai (**Quicknode NFT API** and **Polygon**).
-2. Choose from a **Noun** unique to your wallet address (**Nouns-API**).
+1. Mint your own ETHWaterloo 2023 POAP over text using Goose.ai **(Quicknode NFT API, Polygon)**.
+2. Choose from a **Noun** unique to your wallet address **(Nouns-API)**.
 3. Choose a classic Mr. Goose GIF if you want the original image.
 4. Choose an AI generated Mr. Goose image with any traits you want OpenAI's Text-To-Image model (Eden AI API).
-6. Backup your NFTs on any chain through chat (**IPFS and Web3.Storage**)
-7. Secure authentication login (**WorldCoin**)
+6. Backup your NFTs on any chain through chat **(IPFS and Web3.Storage)**
+7. Secure authentication login **(WorldCoin)**
 
 # Bounties
 
