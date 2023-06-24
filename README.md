@@ -13,6 +13,8 @@ And this is just crypto, arguably the most publicly recognizable part of the Web
 
 Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatbot to increase accessibility to Web3 services and blockchain data visualization tools. Ask questions about specific Web3 technologies, get insights on live data feeds, and **make blockchain state changes** all through chat.
 
+Technologies: WorldCoin, Polygon, IPFS, Web3.Storage, Quicknode, NounsDAO, Highlight
+
 Features:
 1. Mint your own ETHWaterloo 2023 POAP via text using Goose.ai **(Quicknode NFT API, Polygon)**.
 2. Choose from a **Noun** unique to your wallet address **(Nouns-API)**.
