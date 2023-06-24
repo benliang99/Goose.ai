@@ -127,4 +127,8 @@ CryptoGeese NFT Collection
 
 An interchain application is an app that communicates between chains, it either transfers assets or has interchain function calls. The winner of this prize would be the most compelling application that leverages Hyperlane, and benefits from its presence on multiple chains!
 
+### Compound
 
+$5,000 USD to the single best integration of Compound III. The project must interact (smart contract or JSON RPC) with any instance of the v3 protocol or governance system, or be a supportive project specifically created for the Compound community's use.
+
+Chatbot for performing Compound financial actions (e.g. borrowing and supply assets).
