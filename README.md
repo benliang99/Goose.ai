@@ -8,6 +8,8 @@
 
 🏊‍♂️ Pool Prize — $3,000 distributed between all qualifying submissions
 
+✅ WorldCoin NLP AI Helper
+
 ### Polygon
 
 🏊‍♂️ $2,000 Build #onPolygon in Public Pool Prize:
