@@ -7,6 +7,7 @@
 * 51% could accurately define crypto assets
 * few felt particularly familiar with crypto
 * most lacked a working knowledge of the practical, legal, or regulatory dimensions of crypto assets
+
 And this is just crypto, the most publicly recognizable part of the Web3 umbrella!
 
 So how do we lower the barrier of entry to crypto, blockchain, and Web3 services?
