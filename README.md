@@ -39,4 +39,80 @@ Best use of Token API gets $1,500
 Best use of NFT API gets $1,500 
 Total prize bounty = $5,000
 
+### Airstack
+
+Prizes
+🥇 - $1,500 Excellent use of XMTP SDKs 🥈 - $1,000 Excellent use of XMTP SDKs 🥉 - $500 Excellent use of XMTP SDKs
+
+💪- $1,000 In-Chat Bounty Management Using XMTP and TalentLayer (see: https://www.notion.so/In-Chat-Bounty-Management-Using-XMTP-and-TalentLayer-392213f0a98f4a179b816aa1f50be51a)
+
+🏗️ - $1,000 Best use of XMTP + Airstack APIs Using Airstack, Build a discovery engine for onboarding users into messaging via an example app on XMTP.
+
+
+### Best Frontend Component Built with BOS:
+
+We can try building frontend on BOS?
+
+🥇 $3,000
+🥈 2x $2,000
+🥉 3x $1,000
+
+
+### Metamask / Linea
+
+Just deploy on Linea
+
+We have $2500 max for up to 2 winners
+
+DO THIS!!!! —--> deploy https://rpc.goerli.linea.build ←—------
+
+
+
+### NounsDAO
+
+
+🏆 $3,000 - Best Public Good
+
+🎨 $2,000 - Best Nouns Artwork Use
+
+
+Chatbot for viewing Nouns artwork
+
+Nouns Dev Resources
+GitHub - https://github.com/nounsDAO
+Smart Contract Architecture - https://nouns.center/dev/smart-contract-architecture
+Nouns Protocol - https://nouns.center/dev/nouns-protocol
+Nouns builder API - https://noun-api.com/
+Nouns image API - https://noun.pics/
+More resources - https://nouns.center/dev
+Nouns Assets
+All traits, colors, fonts, icons - https://www.noundation.wtf/
+All traits, colors, glasses - https://nouns.center/assets
+Nouns Playground - https://nouns.wtf/playground
+Nouns Art Tools
+Edit traits - https://studio.noundry.wtf/
+Edit traits https://jetstream.wtf/
+Add glasses to images - https://nounify.wtf/
+
+### Highlight:
+
+Judges from Highlight, and the Ethereum art community will select the best code-based generative art project representing the ETHGlobal brand and mission.
+
+🏆 We’re offering the following prizes for the most creative and inventive use of Highlight:
+
+🥇 Gold: $3,000
+
+🥈 Silver: $1,500
+
+🥉 Bronze: $500
+
+
+CryptoGeese NFT Collection 
+
+### HyperLane
+
+🎼 $2,000 - Best Interchain Application
+
+An interchain application is an app that communicates between chains, it either transfers assets or has interchain function calls. The winner of this prize would be the most compelling application that leverages Hyperlane, and benefits from its presence on multiple chains!
+
 
