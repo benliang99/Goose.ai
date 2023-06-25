@@ -26,3 +26,14 @@ https://github.com/saccharinedreams/Goose.ai/blob/e004bdd8c29e5cf4383f64006a7a81
 
 Quicknode very easy to use and build on! Amazing documentation.
 
+Polygon NFT Minting using Quicknode NFT API!
+
+https://github.com/saccharinedreams/Goose.ai/blob/main/demos/Polygon%20x%20Quicknode/PolygonXQuicknode-NFTAPIMintingDemo.mov
+
+Quicknode RPC for fetching transaction details!
+
+https://github.com/saccharinedreams/Goose.ai/blob/main/demos/Polygon%20x%20Quicknode/QuickNodePolygonTransactionDetails.mp4
+
+Quicknode RPC for fetching wallet balance!
+
+https://github.com/saccharinedreams/Goose.ai/blob/main/demos/Polygon%20x%20Quicknode/QuicknodePolygonWalletBalance.mp4
