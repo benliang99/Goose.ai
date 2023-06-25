@@ -18,7 +18,7 @@ In addition to the top prizes:
 
 ### Please add a sentence or two on why you're applicable for this prize.
 
-We are leveraging WorldCoin's World ID to provide secure authentication login for our POAP minting webpage! (We don't want people spamming)
+We are leveraging WorldCoin's World ID to provide secure authentication login for our POAP minting webpage! (We don't want people or bots spamming our POAP minting and taking it away from genuine users)
 
 Furthermore, we have created a WorldCoin assistant using OpenAI to answer everything related to WorldCoin, stemming from our fascination with the orb and what it does after reading through the FAQ.
 
