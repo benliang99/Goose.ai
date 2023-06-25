@@ -34,6 +34,7 @@ let colorChoices = [
 let backgroundColor, color1, color2, color3, color4;
 let plexMono;
 let img;
+let count;
 
 /*
  * Preload
@@ -54,6 +55,8 @@ function setup() {
   noLoop();
   frameRate(60);
   pixelDensity(2);
+
+  count = 0;
 
   // Choose colors
   backgroundColor = hl.randomElement(colorChoices);
@@ -79,8 +82,10 @@ function setup() {
  * Draw
  */
 function draw() {
+  gradientBackground(color1, color2, color3, color4);
+
   noStroke();
-  background(backgroundColor);
+
   translate(width / 2, height / 2);
   fill(color1);
   ellipse(0, 0, width * 0.8, width * 0.8);
@@ -90,9 +95,22 @@ function draw() {
   ellipse(0, 0, width * 0.4, width * 0.4);
   fill(color4);
   ellipse(0, 0, width * 0.2, width * 0.2);
+
+  rotate(radians(count)); // Rotate the image by the specified angle
   image(img, -img.width / 2, -img.height / 2); // Display the image at the center of the sketch
 
   hl.token.capturePreview();
+
+  count++;
+}
+
+function gradientBackground(color1, color2, color3, color4) {
+  for (let y = 0; y < height; y++) {
+    const inter = map(y, 0, height, 0, 1);
+    const gradientColor = lerpColor(color1, color4, inter);
+    stroke(gradientColor);
+    line(0, y, width, y);
+  }
 }
 
 /*
