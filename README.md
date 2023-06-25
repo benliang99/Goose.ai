@@ -15,7 +15,7 @@ Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatb
 
 Technologies: WorldCoin, Polygon, IPFS, Web3.Storage, Quicknode, NounsDAO, Highlight
 
-Features:
+## 🚧 How we built it 
 
 1. Secure authentication login **(WorldCoin)**
    
@@ -36,9 +36,6 @@ Features:
      - Monitor UMA **(The Graph, UMA)**
      - Retrieve and visualize marketplace data **(Airstack)**
      - Monitor ApeCoin activity **(Snapshot/GraphQL, ApeCoin DAO)**
-
-## 🚧 How we built it 
-
 
 Check out our [DevPost page!](placeholder)
 Goose.ai is a [ETH Waterloo]() project.
