@@ -16,7 +16,7 @@ We are building a data visualization dashboard that monitors data on UMA powered
 
 ### Link to the code where the tech is used.
 
-https://github.com/saccharinedreams/Goose.ai/blob/63a7c25a1d07328a25970fe3f1316d639ae05b83/dashboard/utils/uma-mainnet-voting-data-retrieval.py#L8
+https://github.com/saccharinedreams/Goose.ai/blob/63a7c25a1d07328a25970fe3f1316d639ae05b83/dashboard/utils/uma-mainnet-voting-data-retrieval.py#L6-L27
 
 ### How easy is it to use the API / Protocol? (1 - very difficult, 10 - very easy)
 
