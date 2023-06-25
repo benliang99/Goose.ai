@@ -40,5 +40,5 @@ Technologies: WorldCoin, Polygon, IPFS, Web3.Storage, Quicknode, NounsDAO, Highl
      - Retrieve and visualize marketplace data **(Airstack)**
      - Monitor ApeCoin activity **(Snapshot/GraphQL, ApeCoin DAO)**
 
-Check out our [ETHGlobal page](https://ethglobal.com/showcase/goose-ai-3tgh9)! Goose.ai is a [ETH Waterloo]() project.
+Check out our [ETHGlobal page](https://ethglobal.com/showcase/goose-ai-3tgh9)! Goose.ai is an [ETHGlobal Waterloo](https://ethglobal.com/events/waterloo2023) project.
 

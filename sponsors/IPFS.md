@@ -25,3 +25,6 @@ Very intuitive and comprehensive documentation for IPFS and Web3.Storage!
 NFT Backup Demo on Polygon!
 
 https://github.com/saccharinedreams/Goose.ai/blob/main/demos/IPFS%20%26%20Web3.Storage/Web3.StorageNFTBackup.mov
+
+https://github.com/saccharinedreams/Goose.ai/assets/25058545/a5e252ab-c422-4c97-9520-b6b0cae6841a
+
