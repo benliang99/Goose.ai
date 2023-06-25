@@ -6,6 +6,8 @@ Login with WorldCoin or MetaMask [here](https://goose-ai.netlify.app).
 
 Access our Dashboard via chat or directly [here](https://goosedashboard.streamlit.app/).
 
+#### Mission: Onboarding the next billion Web3 users across mobile, Discord, Slack, and Telegram regardless of platform and technical expertise!
+
 ## 💡 Inspiration 
 
 **The barrier of entry to Web3 is** ***HIGH.*** On September 26, 2022, The Ontario Securities Commission published a Crypto Asset Survey Report and found that amongst Canadians:
