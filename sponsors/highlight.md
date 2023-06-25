@@ -18,6 +18,9 @@ Judges from Highlight, and the Ethereum art community will select the best code-
 
 My team and I created the "Rotating Mr. Goose" Generative NFT Collection using Highlight. It references a meme on the r/uwaterloo subreddit on a rotating goose for everyday of the year. With Highlight, we are able to perform the rotation programatically as well as the background and scenery, making for an incredibly efficient and fun process for bringing the "Rotating Mr. Goose" meme on-chain, allowing anyone to be a part of r/uwaterloo history.
 
+Highlight Link (36 Mints Edition): https://mint.highlight.xyz/6497a7284c03aefe9a9a6cd1
+Highlight Link (365 Mints Complete Edition): https://mint.highlight.xyz/6497b0f24c03aefe9a9a6cde
+
 ### Link to the code where the tech is used.
 
 https://github.com/saccharinedreams/Goose.ai/blob/main/highlight-nft-project/sketch.js

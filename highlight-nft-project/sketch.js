@@ -85,7 +85,7 @@ function draw() {
   translate(width / 2, height / 2);
 
   // Draw random shapes
-  for (let i = 0; i < count; i++) {
+  for (let i = 0; i < 50; i++) {
     let shapeColor = hl.randomElement(colorChoices);
     let shapeSize = random(50, width * 0.5);
 
@@ -98,7 +98,7 @@ function draw() {
     );
   }
 
-  rotate(radians(count * 10)); // Rotate the image by the specified angle
+  rotate(radians(Math.random() * 365)); // Rotate the image by the specified angle
   image(img, -img.width / 2, -img.height / 2); // Display the image at the center of the sketch
 
   hl.token.capturePreview();
