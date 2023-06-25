@@ -2,9 +2,9 @@
 
 ### Goose.ai brings everything blockchain has to offer to mobile, Discord, Slack, and Telegram!
 
-Login to our chatbot with WorldCoin or MetaMask [here](https://goose-ai.netlify.app).
+Login to access our chatbot with WorldCoin or MetaMask [here](https://goose-ai.netlify.app).
 
-Access our Dashboard via our chatbot or directly [here](https://goosedashboard.streamlit.app/).
+Access our Dashboard via our chatbot or [directly](https://goosedashboard.streamlit.app/).
 
 #### Mission: Onboarding the next billion Web3 users, regardless of platform and technical expertise restrictions
 
