@@ -12,7 +12,7 @@ Builders can use OO as a decentralized truth machine that is flexible enough to 
 
 ### Please add a sentence or two on why you're applicable for this prize.
 
-We are building a data visualization dashboard that monitors UMA Mainnet Voting Entities using The Graph.
+We are built a data visualization dashboard that monitors UMA Mainnet Voting Entities using The Graph. Our chatbot component also answers questions about UMA Protocol.
 
 We retrieve data about UMA Protocol's Mainnet Voting Entities: User, PriceIdentifier, PriceRequest, PriceRequestRound, VoterGroup, CommittedVote, RevealedVote, RewardsClaimed.
 
