@@ -48,7 +48,6 @@ Technologies Used: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, Th
            -  Find the users who vote *correctly* the most
            -  Sort data by PriceRequest value
            -  Look up details about any individual user
-     - Retrieve and visualize NFT data **([Airstack](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/Airstack.md))**
   
 5. We also minted a "Rotating Mr. Goose" Generative NFT Collection using **[Highlight](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/highlight.md)**! 
 
