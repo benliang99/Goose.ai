@@ -36,3 +36,7 @@ https://github.com/saccharinedreams/Goose.ai/blob/b6891d230d5c4d95fc4b14bff081d9
 
 Great documentation!
 
+
+
+https://github.com/saccharinedreams/Goose.ai/assets/25058545/24a6ffe4-1a21-4814-aaf0-0b840605d424
+
