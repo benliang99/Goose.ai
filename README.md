@@ -49,7 +49,9 @@ Technologies Used: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, Th
            -  Sort data by PriceRequest value
            -  Look up details about any individual user
   
-5. We also minted a "Rotating Mr. Goose" Generative NFT Collection using **[Highlight](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/highlight.md)**! 
+5. We also minted a "Rotating Mr. Goose" Generative NFT Collection using **[Highlight](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/highlight.md)**!
+
+6. All of the above features are available on Web, Mobile, Slack, Discord, and Telegram!
 
 Check out our [ETHGlobal page](https://ethglobal.com/showcase/goose-ai-3tgh9)! Goose.ai is an [ETHGlobal Waterloo](https://ethglobal.com/events/waterloo2023) project.
 
