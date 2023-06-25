@@ -41,6 +41,10 @@ Technologies: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Gra
         - Download the data you selected as a .csv
      - Monitor UMA Mainnet Voting Entities **(The Graph, UMA)**
         -  Retrieve data about: User, PriceIdentifier, PriceRequest, PriceRequestRound, VoterGroup, CommittedVote, RevealedVote, RewardsClaimed
+        -  Find the users who vote the most
+        -  Find the users who vote *correctly* the most
+        -  Sort data by PriceRequest value
+        -  Look up details about any individual user
      - Retrieve and visualize marketplace data **(Airstack)**
      - Monitor ApeCoin activity **(Snapshot/GraphQL, ApeCoin DAO)**
 
