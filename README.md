@@ -37,10 +37,7 @@ Technologies: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Gra
       
 3. Backup your NFTs on any chain through chat **(IPFS and Web3.Storage)**
 
-4. Interchain functionality via chat
-   - Use Warp routes to transact across multiple chains! **(HyperLane)**
-
-5. Data visualization dashboard (Streamlit app)
+4. Data visualization dashboard (Streamlit app)
      - Monitor your Gnosis Safe wallet's transactions, ownership status, creation date and more! **(The Graph, Gnosis Safe)**
         - Find trends using our interactive plotting feature using data from the Gnosis Safe subgraph
         - Enter your Gnosis Safe wallet address or transaction address to get information instantly
