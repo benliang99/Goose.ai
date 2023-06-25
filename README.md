@@ -16,7 +16,7 @@ And this is just crypto, arguably the most publicly recognizable part of the Web
 
 Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatbot to increase accessibility to Web3 services and blockchain data visualization tools. Ask questions about specific Web3 technologies, get insights on live data feeds, and **make blockchain state changes** all through chat.
 
-Technologies: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Graph subgraphs, AirStack APIs, UMA, Quicknode, NounsDAO, Highlight, ApeCoin 
+Technologies: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Graph subgraphs, AirStack APIs, UMA Protocol, Quicknode, NounsDAO, Highlight, ApeCoin 
 
 ## 🚧 How we built it 
 
@@ -39,12 +39,12 @@ Technologies: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Gra
         - Find trends using our interactive plotting feature using data from the Gnosis Safe subgraph
         - Enter your Gnosis Safe wallet address or transaction address to get information instantly
         - Download the data you selected as a .csv
-     - Monitor UMA Mainnet Voting Entities **(The Graph, UMA)**
+     - Monitor UMA Mainnet Voting Entities **(UMA Protocol, The Graph)**
         -  Retrieve data about: User, PriceIdentifier, PriceRequest, PriceRequestRound, VoterGroup, CommittedVote, RevealedVote, RewardsClaimed
-        -  Find the users who vote the most
-        -  Find the users who vote *correctly* the most
-        -  Sort data by PriceRequest value
-        -  Look up details about any individual user
+           -  Find the users who vote the most
+           -  Find the users who vote *correctly* the most
+           -  Sort data by PriceRequest value
+           -  Look up details about any individual user
      - Retrieve and visualize marketplace data **(Airstack)**
      - Monitor ApeCoin activity **(Snapshot/GraphQL, ApeCoin DAO)**
 
