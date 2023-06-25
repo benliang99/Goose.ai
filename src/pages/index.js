@@ -310,7 +310,7 @@ export default function Home() {
                 textAlign: "center",
               }}
             >
-              Welcome to Goose.ai
+              Welcome to Goose.ai for ETHWaterloo 2023!
             </h1>
             <h2
               style={{
