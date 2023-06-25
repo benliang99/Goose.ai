@@ -175,7 +175,7 @@ def firstPriceRequests(num):
             identifier
             ancillaryData
             resolutionTransaction
-            resolutionTimeStamp
+            resolutionTimestamp
             resolutionBlock
             rounds{
                 id

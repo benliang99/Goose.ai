@@ -48,7 +48,7 @@ with st.expander("Advanced Settings"):
     st.button("Reset", on_click=clear_multi)
 
 if(len(wallet_address) != 0): temp_df = temp_df[df['id'].isin(wallet_address)]
-if(len(destination_address) != 0): temp_df = temp_df[df['destination'].isin(destination_address)]
+#if(len(destination_address) != 0): temp_df = temp_df[df['destination'].isin(destination_address)]
 
 #temp_df = df
 #if(wallet_address != ""): temp_df = df[df['id'] == wallet_address]
