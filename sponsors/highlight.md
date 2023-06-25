@@ -2,6 +2,8 @@
 
 ## Highlight
 
+### Prize Requirements
+
 Judges from Highlight, and the Ethereum art community will select the best code-based generative art project representing the ETHGlobal brand and mission.
 
 🏆 We’re offering the following prizes for the most creative and inventive use of Highlight:
