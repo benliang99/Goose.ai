@@ -7,6 +7,11 @@
   height: 100%;
   z-index: -1;
   animation: timeTravelAnimation 15s linear infinite;
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
 .main {
@@ -154,18 +159,22 @@
   }
 
   50% {
-    background-color: #66bf39;
-  }
-
-  80% {
-    background-color: #eb670f;
-  }
-
-  90% {
     background-color: #f35;
   }
 
   100% {
     background-color: #864cbf;
   }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
