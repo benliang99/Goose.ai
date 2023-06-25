@@ -29,7 +29,9 @@ Furthermore, we have leveraged OpenAI and trained a custom LLM to answer everyth
 
 ### Link to the code where the tech is used.
 
+https://github.com/saccharinedreams/Goose.ai/blob/main/dashboard/pages/gnosis.py
 https://github.com/saccharinedreams/Goose.ai/blob/b6891d230d5c4d95fc4b14bff081d95402aabfdf/dashboard/utils/gnosis-safe-data-retrieval.py#L12-L148
+https://github.com/saccharinedreams/Goose.ai/tree/main/gnosis/custom-subgraph
 
 ### How easy is it to use the API / Protocol? (1 - very difficult, 10 - very easy)
 
@@ -37,9 +39,7 @@ https://github.com/saccharinedreams/Goose.ai/blob/b6891d230d5c4d95fc4b14bff081d9
 
 ### Additional Feedback
 
-Great documentation!
-
-
+Thanks for helping me at the booth! We like your mission and hope we can increase accessibility to data and information related to Gnosis Safe wallets. - Ben
 
 https://github.com/saccharinedreams/Goose.ai/assets/25058545/24a6ffe4-1a21-4814-aaf0-0b840605d424
 
