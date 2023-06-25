@@ -13,15 +13,6 @@ Pool Prize: Build and deploy or use an existing subgraph that indexes data from 
 
 🏅 Pool Prize: $2000
 
-## Bounties
-
-### Quicknode
-
-✅ Mint Polygon NFT through chat using QuickNode NFT API
-Deploy Polygon Token through chat
-
-To do:
-
 ### Airstack
 
 Prizes
