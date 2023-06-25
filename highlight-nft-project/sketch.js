@@ -78,30 +78,32 @@ function setup() {
 
 
 
-/*
- * Draw
- */
 function draw() {
-  // gradientBackground(color1, color2, color3, color4);
-
   noStroke();
+  background(backgroundColor);
 
   translate(width / 2, height / 2);
-  fill(color1);
-  ellipse(width/2 * Math.random(), width/2 * Math.random(), width * Math.random(), width * Math.random());
-  fill(color2);
-  ellipse(width/2 * Math.random(), width/2 * Math.random(), width * Math.random(), width * Math.random());
-  fill(color3);
-  ellipse(width/2 * Math.random(), width/2 * Math.random(), width * Math.random(), width * Math.random());
-  fill(color4);
-  ellipse(width/2 * Math.random(), width/2 * Math.random(), width * Math.random(), width * Math.random());
 
-  rotate(radians(count)); // Rotate the image by the specified angle
+  // Draw random shapes
+  for (let i = 0; i < count; i++) {
+    let shapeColor = hl.randomElement(colorChoices);
+    let shapeSize = random(50, width * 0.5);
+
+    fill(shapeColor);
+    ellipse(
+      random(-width / 2, width / 2),
+      random(-height / 2, height / 2),
+      shapeSize,
+      shapeSize
+    );
+  }
+
+  rotate(radians(count * 10)); // Rotate the image by the specified angle
   image(img, -img.width / 2, -img.height / 2); // Display the image at the center of the sketch
 
   hl.token.capturePreview();
 
-  count++;
+  count = count + 1;
 }
 
 function gradientBackground(color1, color2, color3, color4) {
