@@ -12,7 +12,7 @@
 
 We leveraged Quicknode NFT API to allow all 650 hackers to mint their own ETHWaterloo 2023 POAP via chat using Goose.ai on the Polygon mainnet and testnet!
 
-We also utilize Quicknode Polygon RPC to fetch user wallet information (e.g. balance, transaction details) on mainnet and testnet.
+We also utilize Quicknode Polygon RPC to fetch blockchain information (e.g. user wallet balance, transaction details by hash) on Polygon mainnet and testnet.
 
 ### Link to the code where the tech is used.
 
