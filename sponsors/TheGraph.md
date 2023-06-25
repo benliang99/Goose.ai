@@ -24,10 +24,10 @@ The Graph helps us lower the barrier of entry to data in Web3. We are leveraging
 
 With the Gnosis Safe subgraph on The Graph, you can:
   - Find trends using our interactive plotting feature using data from an existing The Graph's Gnosis Safe subgraph
-  - Users can enter their Gnosis Safe wallet address or transaction address to get information instantly
-  - Users can download the data they select as a .csv
+  - Enter your Gnosis Safe wallet address or transaction address to get information instantly
+  - Download the data they select as a .csv
 
-With the UMA Protocol subgraph on The Graph, you can can:
+With the UMA Protocol subgraph on The Graph, you can:
   -  Find the users who vote the most
   -  Find the users who vote *correctly* the most
   -  Sort data by PriceRequest value
