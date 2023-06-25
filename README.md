@@ -24,7 +24,7 @@ Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatb
 
 ## 🚧 How we built it 
 
-Technologies Used: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Graph subgraphs, AirStack APIs, UMA Protocol, Quicknode, NounsDAO, Highlight, ApeCoin 
+Technologies Used: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Graph subgraphs, AirStack APIs, UMA Protocol, Quicknode, NounsDAO, Highlight
 
 1. We are leveraging **[WorldCoin's World ID](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/WorldCoin.md)** to provide secure authentication login for our POAP minting webpage! (We don't want people or bots spamming our POAP minting and taking it away from genuine users)
    
@@ -48,8 +48,7 @@ Technologies Used: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, Th
            -  Find the users who vote *correctly* the most
            -  Sort data by PriceRequest value
            -  Look up details about any individual user
-     - Retrieve and visualize marketplace data **[Airstack](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/Airstack.md)**
-     - Monitor ApeCoin activity **(Snapshot/GraphQL, ApeCoin DAO)**
+     - Retrieve and visualize NFT data **[Airstack](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/Airstack.md)**
   
 5. We also minted a "Rotating Mr. Goose" Generative NFT Collection using **[Highlight](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/highlight.md)**! 
 
