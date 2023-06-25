@@ -16,12 +16,18 @@ Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatb
 Technologies: WorldCoin, Polygon, IPFS, Web3.Storage, Quicknode, NounsDAO, Highlight
 
 Features:
-1. Mint your own ETHWaterloo 2023 POAP via text using Goose.ai **(Quicknode NFT API, Polygon)**.
-2. Choose from a **Noun** unique to your wallet address **(Nouns-API)**.
-3. Choose a classic Mr. Goose GIF if you want the original image.
-4. Choose an AI generated Mr. Goose image with any traits you want OpenAI's Text-To-Image model (Eden AI API).
-6. Backup your NFTs on any chain through chat **(IPFS and Web3.Storage)**
-7. Secure authentication login **(WorldCoin)**
+
+1. Secure authentication login **(WorldCoin)**
+   
+2. Minting NFTs through Chat
+  - Mint your own ETHWaterloo 2023 POAP via text using Goose.ai **(Quicknode NFT API, Polygon)**.
+  - Choose from:
+    - a **Noun** unique to your wallet address **(Nouns-API)**.
+    - a classic Mr. Goose GIF if you want the original image.
+    - an AI generated Mr. Goose image with any traits you want OpenAI's Text-To-Image model (Eden AI API).
+      
+3. Backup your NFTs on any chain through chat **(IPFS and Web3.Storage)**
+
 
 
 ## 🚧 How we built it 
