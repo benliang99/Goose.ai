@@ -1,6 +1,6 @@
 # Sponsor Prize
 
-## UMA
+## UMA Protocol
 
 ### Prize Requirements
 
@@ -32,5 +32,5 @@ https://github.com/saccharinedreams/Goose.ai/blob/3b43b6e18d663bfa74136b75ea2afd
 
 ### Additional Feedback
 
-Great documentation!
+Thank you for the clean documentation and up-to-date Subgraph! We were able to find some ways to deliver insightful data easily to our potential users.
 
