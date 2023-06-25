@@ -12,11 +12,11 @@
 * few felt particularly familiar with crypto
 * most lacked a working knowledge of the practical, legal, or regulatory dimensions of crypto assets
 
-And this is just crypto, arguably the most publicly recognizable part of the Web3 umbrella! So how do we lower the barrier of entry to crypto, blockchain, and Web3 services? With **Goose.ai**! 🤖
+And this is just crypto, arguably the most publicly recognizable part of the Web3 umbrella. So how do we lower the barrier of entry to crypto, blockchain, and Web3 services? With **Goose.ai**! 🤖
 
 ## ❓ What it does
 
-Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatbot to lower the barrier of entry to Web3 services and blockchain data visualization tools. Ask questions about specific Web3 technologies, get insights on data feeds (subgraphs), and **make blockchain state changes** all through chat.
+**Goose.ai** is a multipurpose, platform-agnostic tool that uses an LLM-driven chatbot to lower the barrier of entry to Web3 services and blockchain data visualization tools. Ask questions about specific Web3 technologies, get insights on data feeds (subgraphs), and **make blockchain state changes** all through chat.
 
 **Login** with WorldCoin or MetaMask to access our chatbot [here](https://goose-ai.netlify.app).
 
