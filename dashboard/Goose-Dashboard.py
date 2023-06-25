@@ -14,14 +14,8 @@ st.markdown(
     
     **👈 Select a data source from the sidebar**.
     ### Gnosis
-
-    ### Airstack
     
     ### UMA
-
-    ### ApeCoin
-
-    ### sismo
 
 """
 )
