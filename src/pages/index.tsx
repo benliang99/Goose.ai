@@ -299,7 +299,7 @@ export default function Home() {
                 textAlign: "center",
               }}
             >
-              Mint your very own ETHWaterloo POAP using Goose.ai!
+              Welcome to Goose.ai
             </h1>
             <h2
               style={{
