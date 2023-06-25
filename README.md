@@ -22,9 +22,9 @@ And this is just crypto, arguably the most publicly recognizable part of the Web
 
 Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatbot to increase accessibility to Web3 services and blockchain data visualization tools. Ask questions about specific Web3 technologies, get insights on live data feeds, and **make blockchain state changes** all through chat.
 
-Technologies: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Graph subgraphs, AirStack APIs, UMA Protocol, Quicknode, NounsDAO, Highlight, ApeCoin 
-
 ## 🚧 How we built it 
+
+Technologies Used: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Graph subgraphs, AirStack APIs, UMA Protocol, Quicknode, NounsDAO, Highlight, ApeCoin 
 
 1. We are leveraging **WorldCoin's World ID** to provide secure authentication login for our POAP minting webpage! (We don't want people or bots spamming our POAP minting and taking it away from genuine users)
    
