@@ -46,4 +46,4 @@ https://github.com/saccharinedreams/Goose.ai/blob/3b43b6e18d663bfa74136b75ea2afd
 
 ### Additional Feedback
 
-Amazing functionality!
+Amazing functionality! The Graph allows us to access data across many different ecosystems. Special thanks to Pedro for the help at the booth.
