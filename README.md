@@ -20,9 +20,9 @@ Technologies: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Gra
 
 ## 🚧 How we built it 
 
-1. Secure authentication login **(WorldCoin)**
+1. We are leveraging **WorldCoin's World ID** to provide secure authentication login for our POAP minting webpage! (We don't want people or bots spamming our POAP minting and taking it away from genuine users)
    
-2. Minting NFTs through Chat
+2. We leveraged **Quicknode's NFT API** to allow all 650 hackers to mint their own ETHWaterloo 2023 POAP via chat using Goose.ai on the Polygon mainnet and testnet!
      - Mint your own ETHWaterloo 2023 POAP via text using Goose.ai **(Quicknode NFT API, Polygon)**.
      - Choose from:
        - a **Noun** unique to your wallet address **(Nouns-API)**.
