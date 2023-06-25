@@ -24,9 +24,6 @@ https://github.com/saccharinedreams/Goose.ai/blob/e61e4110c3684d82c6b0e72946e807
 
 Leveraging MetaMask SDK was very intuitive!
 
-
-
 https://github.com/saccharinedreams/Goose.ai/assets/25058545/ace5d53f-17ab-429c-acc8-e3e7c785e129
 
-
-
+https://github.com/saccharinedreams/Goose.ai/blob/main/demos/MetaMask/MetaMaskSDK-AddNetworks.mp4
