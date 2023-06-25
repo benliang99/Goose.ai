@@ -50,9 +50,7 @@ Check out our [ETHGlobal page](https://ethglobal.com/showcase/goose-ai-3tgh9)! G
 
 ### Polygon
 
-🏊‍♂️ $2,000 Build #onPolygon in Public Pool Prize:
 
-Deploy your smart contract on Polygon (Polygon PoS Mainnet, Polygon PoS Mumbai Testnet, Polygon zkEVM Mainnet, or the Polygon zkEVM Testnet) and provide a link to the smart contract and your tweet. All teams that satisfy these requirements will split the pool prize.
 
 ✅ Deploy Polygon Smart Contract using chat - Verbwire
 ✅ Mint Polygon NFT through chat

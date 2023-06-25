@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mumbal01.sol": "SimpleStorage"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mumbal01.sol": {
+			"keccak256": "0x6e651a1ee9f72f247c82ec59fe6703ff6245895636c5191b94c1e85dc9a6563d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://588dbf28ce5484ae58d2a863974650e4ef374505e59a4e4d3c72273ace75f668",
+				"dweb:/ipfs/QmdXJDRpmjR8Ve4DxRoxRUohWMLiwSa76bhCKnzTHc52Cf"
+			]
+		}
+	},
+	"version": 1
+}
