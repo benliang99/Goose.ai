@@ -28,7 +28,7 @@ Technologies Used: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, Th
 
 1. We are leveraging **[WorldCoin's World ID](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/WorldCoin.md)** to provide secure authentication login for our POAP minting webpage! (We don't want people or bots spamming our POAP minting and taking it away from genuine users)
    
-2. We leveraged **[Quicknode](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/Quicknode.md's NFT API** to allow all 650 hackers to mint their own ETHWaterloo 2023 POAP via chat using Goose.ai on the Polygon mainnet and testnet!
+2. We leveraged **[Quicknode](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/Quicknode.md)'s NFT API** to allow all 650 hackers to mint their own ETHWaterloo 2023 POAP via chat using Goose.ai on the Polygon mainnet and testnet!
      - Mint your own ETHWaterloo 2023 POAP via text using Goose.ai **([Quicknode](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/Quicknode.md) NFT API, [Polygon](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/Polygon.md))**.
      - Choose from:
        - a **Noun** unique to your wallet address **([Nouns](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/NounsDAO.md)-API)**.
