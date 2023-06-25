@@ -20,7 +20,7 @@ And this is just crypto, arguably the most publicly recognizable part of the Web
 
 ## ❓ What it does
 
-Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatbot to increase accessibility to Web3 services and blockchain data visualization tools. Ask questions about specific Web3 technologies, get insights on live data feeds, and **make blockchain state changes** all through chat.
+Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatbot to increase accessibility to Web3 services and blockchain data visualization tools. Ask questions about specific Web3 technologies, get insights on data feeds (subgraphs), and **make blockchain state changes** all through chat.
 
 ## 🚧 How we built it 
 
