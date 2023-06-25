@@ -1,0 +1,4 @@
+# pip install -r requirements.txt
+# GraphQL: https://graphql.org/code/#python
+requests
+pandas
