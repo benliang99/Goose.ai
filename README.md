@@ -18,9 +18,9 @@ And this is just crypto, arguably the most publicly recognizable part of the Web
 
 Goose.ai is a multipurpose, platform-agnostic tool that uses an LLM-driven chatbot to increase accessibility to Web3 services and blockchain data visualization tools. Ask questions about specific Web3 technologies, get insights on data feeds (subgraphs), and **make blockchain state changes** all through chat.
 
-Login to access our chatbot with WorldCoin or MetaMask [here](https://goose-ai.netlify.app).
+**Login** to access our chatbot with WorldCoin or MetaMask [here](https://goose-ai.netlify.app).
 
-Access our Dashboard via our chatbot or [directly](https://goosedashboard.streamlit.app/).
+**Access** our Dashboard via our chatbot or [directly](https://goosedashboard.streamlit.app/).
 
 ## 🚧 How we built it 
 
