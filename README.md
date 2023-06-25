@@ -1,6 +1,6 @@
 # 🍁 Goose.ai
 
-### Goose.ai brings everything blockchain has to offer to mobile, Discord, Slack, and Telegram!
+### Goose.ai brings Web3 accessibility to mobile, Discord, Slack, and Telegram!
 
 #### Mission: Onboarding the next billion Web3 users, regardless of platform and technical expertise restrictions
 
