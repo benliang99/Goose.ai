@@ -91,14 +91,10 @@ Pool Prize: Build and deploy or use an existing subgraph that indexes data from 
 
 ### Quicknode
 
-Best 5 projects using QuickNode RPC gets $400 each selected project = $2,000 total
-Best use of Token API gets $1,500
-Best use of NFT API gets $1,500 
-Total prize bounty = $5,000
-
 ✅ Mint Polygon NFT through chat using QuickNode NFT API
 Deploy Polygon Token through chat
 
+To do:
 
 ### Airstack
 
@@ -108,6 +104,9 @@ Prizes
 💪- $1,000 In-Chat Bounty Management Using XMTP and TalentLayer (see: https://www.notion.so/In-Chat-Bounty-Management-Using-XMTP-and-TalentLayer-392213f0a98f4a179b816aa1f50be51a)
 
 🏗️ - $1,000 Best use of XMTP + Airstack APIs Using Airstack, Build a discovery engine for onboarding users into messaging via an example app on XMTP.
+
+
+
 
 
 ### Best Frontend Component Built with BOS:
@@ -126,14 +125,6 @@ Just deploy on Linea
 We have $2500 max for up to 2 winners
 
 DO THIS!!!! —--> deploy https://rpc.goerli.linea.build ←—------
-
-
-
-### NounsDAO
-
-
-
-✅ Using Nouns artwork to generate unique POAPs!
 
 
 ### HyperLane
