@@ -1,0 +1,30 @@
+{
+    "name": "voiceflow_telegram",
+    "version": "1.0.0",
+    "description": "Telegram Bot using Voiceflow's Dialog Manager API",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "Zoran Slamkov",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:zslamkov/voiceflow_telegram"
+    },
+    "homepage": "https://github.com/zslamkov/voiceflow_telegram",
+    "keywords": [
+        "nodejs",
+        "voiceflow",
+        "bot",
+        "telegram",
+        "javascript",
+        "telegraf"
+    ],
+    "dependencies": {
+        "axios": "^0.26.0",
+        "dotenv": "^16.0.0",
+        "telegraf": "^4.7.0"
+    }
+}
