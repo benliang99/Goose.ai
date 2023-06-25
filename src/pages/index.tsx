@@ -5,7 +5,24 @@ import styles from "../styles/Home.module.css";
 import { useState, useEffect } from "react";
 import detectEthereumProvider from "@metamask/detect-provider";
 
+import MetaMaskSDK from "@metamask/sdk";
+
+const options = {
+  injectProvider: false,
+  communicationLayerPreference: 'webrtc',
+  dappMetadata: {name: "My Dapp", url: "https://mydapp.com"}, 
+};
+
+
 export default function Home() {
+  const MMSDK = new MetaMaskSDK(options);
+
+  const ethereum = MMSDK.getProvider(); // You can also access via window.ethereum
+
+  // ethereum.request({ method: 'eth_requestAccounts', params: [] });
+
+
+
   const [hasProvider, setHasProvider] = useState<boolean | null>(null);
   const initialState = { accounts: [] }; /* New */
   const [wallet, setWallet] = useState(initialState); /* New */
@@ -22,7 +39,9 @@ export default function Home() {
   const updateWallet = async (accounts: any) => {
     /* New */
     setWallet({ accounts }); /* New */
-    setTimeout(() => {  setVerified(true); }, 2000);
+    setTimeout(() => {
+      setVerified(true);
+    }, 2000);
   }; /* New */
 
   const handleConnect = async () => {
@@ -91,6 +110,173 @@ export default function Home() {
     transition: "background 0.3s",
   };
 
+  const [chain, setChain] = useState("");
+  const [account, setAccount] = useState("");
+  const [response, setResponse] = useState("");
+
+  const connect = () => {
+    window.ethereum
+      .request({
+        method: "eth_requestAccounts",
+        params: [],
+      })
+      .then((res) => console.log("request accounts", res))
+      .catch((e) => console.log("request accounts ERR", e));
+  };
+
+  const addEthereumChain = () => {
+    window.ethereum
+      .request({
+        method: "wallet_addEthereumChain",
+        params: [
+          {
+            chainId: "0x89",
+            chainName: "Polygon",
+            blockExplorerUrls: ["https://polygonscan.com"],
+            nativeCurrency: { symbol: "MATIC", decimals: 18 },
+            rpcUrls: ["https://polygon-rpc.com/"],
+          },
+        ],
+      })
+      .then((res) => console.log("add", res))
+      .catch((e) => console.log("ADD ERR", e));
+  };
+
+  const addMumbaiChain = () => {
+    window.ethereum
+      .request({
+        method: "wallet_addEthereumChain",
+        params: [
+          {
+            chainId: "0x13881",
+            chainName: "Polygon Mumbai",
+            blockExplorerUrls: ["https://mumbai.polygonscan.com"],
+            nativeCurrency: { symbol: "MATIC", decimals: 18 },
+            rpcUrls: ["https://polygon-mumbai.blockpi.network/v1/rpc/public/"],
+          },
+        ],
+      })
+      .then((res) => console.log("add", res))
+      .catch((e) => console.log("ADD ERR", e));
+  };
+
+
+  useEffect(() => {
+    window.ethereum.on("chainChanged", (chain) => {
+      console.log(chain);
+      setChain(chain);
+    });
+    window.ethereum.on("accountsChanged", (accounts) => {
+      console.log(accounts);
+      setAccount(accounts?.[0]);
+    });
+  }, []);
+
+  const sendTransaction = async () => {
+    const to = "0x0000000000000000000000000000000000000000";
+    const transactionParameters = {
+      to, // Required except during contract publications.
+      from: window.ethereum.selectedAddress, // must match user's active address.
+      value: "0x5AF3107A4000", // Only required to send ether to the recipient from the initiating external account.
+    };
+
+    try {
+      // txHash is a hex string
+      // As with any RPC call, it may throw an error
+      const txHash = await window.ethereum.request({
+        method: "eth_sendTransaction",
+        params: [transactionParameters],
+      });
+
+      setResponse(txHash);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  const sign = async () => {
+    const msgParams = JSON.stringify({
+      domain: {
+        // Defining the chain aka Rinkeby testnet or Ethereum Main Net
+        chainId: parseInt(window.ethereum.chainId, 16),
+        // Give a user friendly name to the specific contract you are signing for.
+        name: "Ether Mail",
+        // If name isn't enough add verifying contract to make sure you are establishing contracts with the proper entity
+        verifyingContract: "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC",
+        // Just let's you know the latest version. Definitely make sure the field name is correct.
+        version: "1",
+      },
+
+      // Defining the message signing data content.
+      message: {
+        /*
+         - Anything you want. Just a JSON Blob that encodes the data you want to send
+         - No required fields
+         - This is DApp Specific
+         - Be as explicit as possible when building out the message schema.
+        */
+        contents: "Hello, Bob!",
+        attachedMoneyInEth: 4.2,
+        from: {
+          name: "Cow",
+          wallets: [
+            "0xCD2a3d9F938E13CD947Ec05AbC7FE734Df8DD826",
+            "0xDeaDbeefdEAdbeefdEadbEEFdeadbeEFdEaDbeeF",
+          ],
+        },
+        to: [
+          {
+            name: "Bob",
+            wallets: [
+              "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+              "0xB0BdaBea57B0BDABeA57b0bdABEA57b0BDabEa57",
+              "0xB0B0b0b0b0b0B000000000000000000000000000",
+            ],
+          },
+        ],
+      },
+      // Refers to the keys of the *types* object below.
+      primaryType: "Mail",
+      types: {
+        // TODO: Clarify if EIP712Domain refers to the domain the contract is hosted on
+        EIP712Domain: [
+          { name: "name", type: "string" },
+          { name: "version", type: "string" },
+          { name: "chainId", type: "uint256" },
+          { name: "verifyingContract", type: "address" },
+        ],
+        // Not an EIP712Domain definition
+        Group: [
+          { name: "name", type: "string" },
+          { name: "members", type: "Person[]" },
+        ],
+        // Refer to PrimaryType
+        Mail: [
+          { name: "from", type: "Person" },
+          { name: "to", type: "Person[]" },
+          { name: "contents", type: "string" },
+        ],
+        // Not an EIP712Domain definition
+        Person: [
+          { name: "name", type: "string" },
+          { name: "wallets", type: "address[]" },
+        ],
+      },
+    });
+
+    var from = window.ethereum.selectedAddress;
+
+    var params = [from, msgParams];
+    var method = "eth_signTypedData_v4";
+
+    try {
+      const resp = await window.ethereum.request({ method, params });
+      setResponse(resp);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
     <div className={styles.container}>
       {!verified && (
@@ -133,7 +319,7 @@ export default function Home() {
           </div>
           <h1>&nbsp;</h1>
 
-          <div>Injected Provider {hasProvider ? 'DOES' : 'DOES NOT'} Exist</div>
+          <div>Injected Provider {hasProvider ? "DOES" : "DOES NOT"} Exist</div>
           <h1>&nbsp;</h1>
           <button
             onClick={handleConnect}
@@ -161,6 +347,82 @@ export default function Home() {
           {wallet.accounts.length > 0 /* New */ && (
             <h1>Wallet Accounts: {wallet.accounts[0]}</h1>
           )}
+
+              <button style={{
+              padding: "10px 20px",
+              fontSize: "16px",
+              fontWeight: "bold",
+              borderRadius: "5px",
+              color: "#fff",
+              backgroundColor: "orange",
+              border: "none",
+              cursor: "pointer",
+              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              transition: "background-color 0.3s",
+            }} onClick={sign}>
+                Sign using your MetaMask Wallet!
+              </button>
+
+              <button
+                style={{
+                  padding: "10px 20px",
+                  fontSize: "16px",
+                  fontWeight: "bold",
+                  borderRadius: "5px",
+                  color: "#fff",
+                  backgroundColor: "orange",
+                  border: "none",
+                  cursor: "pointer",
+                  boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+                  transition: "background-color 0.3s",
+                }}
+                onClick={sendTransaction}
+              >
+                Send a Transaction!
+              </button>
+
+              <button
+                style={{
+                  padding: "10px 20px",
+                  fontSize: "16px",
+                  fontWeight: "bold",
+                  borderRadius: "5px",
+                  color: "#fff",
+                  backgroundColor: "orange",
+                  border: "none",
+                  cursor: "pointer",
+                  boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+                  transition: "background-color 0.3s",
+                }}
+                onClick={addEthereumChain}
+              >
+                Add Polygon Mainnet to your MetaMask Wallet!
+              </button>
+              <button
+                style={{
+                  padding: "10px 20px",
+                  fontSize: "16px",
+                  fontWeight: "bold",
+                  borderRadius: "5px",
+                  color: "#fff",
+                  backgroundColor: "orange",
+                  border: "none",
+                  cursor: "pointer",
+                  boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+                  transition: "background-color 0.3s",
+                }}
+                onClick={addMumbaiChain}
+              >
+                Add Polygon Testnet (mumbai) to your MetaMask Wallet!
+              </button>
+
+              {chain && `Connected chain: ${chain}`}
+              <p></p>
+              {account && `Connected account: ${account}`}
+              <p></p>
+              {response && `Last request response: ${response}`}
+
+              <h1>&nbsp;</h1>
           <IDKitWidget
             action={process.env.NEXT_PUBLIC_WLD_ACTION_NAME!}
             onSuccess={onSuccess}
@@ -198,11 +460,10 @@ export default function Home() {
           width="100%"
           height="100%"
         ></iframe>
-        
       )}
-      { wallet.accounts.length > 0 &&                /* New */
-        <div>Wallet Accounts: { wallet.accounts[0] }</div>
-      }
+      {wallet.accounts.length > 0 /* New */ && (
+        <div>Wallet Accounts: {wallet.accounts[0]}</div>
+      )}
     </div>
   );
 }
