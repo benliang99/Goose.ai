@@ -24,7 +24,7 @@ We retrieve data about UMA Protocol's Mainnet Voting Entities: User, PriceIdenti
    
 ### Link to the code where the tech is used.
 
-https://github.com/saccharinedreams/Goose.ai/blob/63a7c25a1d07328a25970fe3f1316d639ae05b83/dashboard/utils/uma-mainnet-voting-data-retrieval.py#L6-L27
+https://github.com/saccharinedreams/Goose.ai/blob/3b43b6e18d663bfa74136b75ea2afd2e065334ab/dashboard/utils/uma-mainnet-voting-data-retrieval.py#L6-L231
 
 ### How easy is it to use the API / Protocol? (1 - very difficult, 10 - very easy)
 
