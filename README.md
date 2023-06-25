@@ -32,7 +32,7 @@ Technologies: WorldCoin, Polygon, IPFS, Web3.Storage, Quicknode, NounsDAO, Highl
 4. Interchain functionality via chat
    - Use Warp routes to transact across multiple chains! **(HyperLane)**
 
-5. Data analytics and Dashboard (Streamlit app)
+5. Data visualization dashboard (Streamlit app)
      - Monitor your Gnosis Safe wallet's transactions, ownership status, and balance **(The Graph, Gnosis Safe)**
      - Monitor UMA **(The Graph, UMA)**
      - Retrieve and visualize marketplace data **(Airstack)**
