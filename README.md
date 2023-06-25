@@ -47,17 +47,6 @@ Check out our [ETHGlobal page](https://ethglobal.com/showcase/goose-ai-3tgh9)! G
 
 ## Pool Prizes
 
-### WorldCoin
-
-🏊‍♂️ Pool Prize — $3,000 distributed between all qualifying submissions
-
-✅ WorldCoin NLP AI Helper
-✅ Login powered by WorldCoin
-Client ID: app_staging_dfbbb6c8ef7b17bae66db523a50c4b30
-Client Secret: sk_f0981d4c3889cdd4407d78a843f3de00a68ad4d8b233bea3
-Basic Token (encoded using Base64): YXBwX3N0YWdpbmdfZGZiYmI2YzhlZjdiMTdiYWU2NmRiNTIzYTUwYzRiMzA6c2tfZjA5ODFkNGMzODg5Y2RkNDQwN2Q3OGE4NDNmM2RlMDBhNjhhZDRkOGIyMzNiZWEz
-
-Get authorization code using orb
 
 ### Polygon
 
@@ -68,14 +57,6 @@ Deploy your smart contract on Polygon (Polygon PoS Mainnet, Polygon PoS Mumbai T
 ✅ Deploy Polygon Smart Contract using chat - Verbwire
 ✅ Mint Polygon NFT through chat
 Deploy Polygon Token through chat
-
-### IPFS, Filecoin & more
-
-🏊 Prize Pool: 8 teams x $500 each (paid in FIL)
-
-✅ Project: Backup NFTs on any chain using Web3.Storage API
-
-Tech: IPFS and Web3.Storage
 
 ### UMA
 
