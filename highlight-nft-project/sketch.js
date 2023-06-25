@@ -82,19 +82,19 @@ function setup() {
  * Draw
  */
 function draw() {
-  gradientBackground(color1, color2, color3, color4);
+  // gradientBackground(color1, color2, color3, color4);
 
   noStroke();
 
   translate(width / 2, height / 2);
   fill(color1);
-  ellipse(0, 0, width * 0.8, width * 0.8);
+  ellipse(width/2 * Math.random(), width/2 * Math.random(), width * Math.random(), width * Math.random());
   fill(color2);
-  ellipse(0, 0, width * 0.6, width * 0.6);
+  ellipse(width/2 * Math.random(), width/2 * Math.random(), width * Math.random(), width * Math.random());
   fill(color3);
-  ellipse(0, 0, width * 0.4, width * 0.4);
+  ellipse(width/2 * Math.random(), width/2 * Math.random(), width * Math.random(), width * Math.random());
   fill(color4);
-  ellipse(0, 0, width * 0.2, width * 0.2);
+  ellipse(width/2 * Math.random(), width/2 * Math.random(), width * Math.random(), width * Math.random());
 
   rotate(radians(count)); // Rotate the image by the specified angle
   image(img, -img.width / 2, -img.height / 2); // Display the image at the center of the sketch
