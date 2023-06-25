@@ -2,7 +2,8 @@
 
 ## 💡 Inspiration 
 
-**The barrier of entry to Web3 is** ***HIGH.*** On September 26, 2022, The Ontario Securities Commission published a Crypto Asset Survey Report (September 26, 2022) and found that amongst Canadians:
+**The barrier of entry to Web3 is** ***HIGH.*** On September 26, 2022, The Ontario Securities Commission published a Crypto Asset Survey Report and found that amongst Canadians:
+
 * the average crypto asset knowledge score was 37%
 * few felt particularly familiar with crypto
 * most lacked a working knowledge of the practical, legal, or regulatory dimensions of crypto assets
@@ -31,7 +32,7 @@ Technologies: WorldCoin, Polygon, IPFS, Web3.Storage, Quicknode, NounsDAO, Highl
 4. Interchain functionality via chat
    - Use Warp routes to transact across multiple chains! **(HyperLane)**
 
-5. Data analytics and Dashboard (Streamlit app)
+5. Data visualization dashboard (Streamlit app)
      - Monitor your Gnosis Safe wallet's transactions, ownership status, and balance **(The Graph, Gnosis Safe)**
      - Monitor UMA **(The Graph, UMA)**
      - Retrieve and visualize marketplace data **(Airstack)**
