@@ -12,27 +12,266 @@
     },
     "members": [],
     "linkType": "STRAIGHT",
-    "image": "https://cm4-production-assets.s3.amazonaws.com/1687624636355-goose.jpg",
+    "image": "https://cm4-production-assets.s3.amazonaws.com/1687677522933-goose.png",
     "customThemes": [],
     "aiAssistSettings": {
       "aiPlayground": true,
       "generateNoMatch": true
     },
     "_version": 1.2,
-    "updatedAt": "2023-06-24T20:08:57.220Z",
+    "updatedAt": "2023-06-25T07:20:25.476Z",
     "creatorID": 130974,
     "updatedBy": 130974,
     "apiPrivacy": "public",
     "privacy": "private",
     "knowledgeBase": {
-      "documents": {}
+      "documents": {
+        "6497d256ab7f1b0007195595": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "ethglobal.com/events/waterloo2023",
+            "url": "https://ethglobal.com/events/waterloo2023"
+          },
+          "updatedAt": "2023-06-25T05:36:22.656Z",
+          "creatorID": 130974,
+          "documentID": "6497d256ab7f1b0007195595",
+          "version": 0.2
+        },
+        "6497d256ab7f1b0007195596": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "ethglobal.com/events/pragma-waterloo",
+            "url": "https://ethglobal.com/events/pragma-waterloo"
+          },
+          "updatedAt": "2023-06-25T05:36:22.657Z",
+          "creatorID": 130974,
+          "documentID": "6497d256ab7f1b0007195596",
+          "version": 0.2
+        },
+        "6497d256ab7f1b0007195597": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "worldcoin.org/",
+            "url": "https://worldcoin.org/"
+          },
+          "updatedAt": "2023-06-25T05:36:22.689Z",
+          "creatorID": 130974,
+          "documentID": "6497d256ab7f1b0007195597",
+          "version": 0.2
+        },
+        "6497d256ab7f1b0007195598": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "worldcoin.org/faqs",
+            "url": "https://worldcoin.org/faqs"
+          },
+          "updatedAt": "2023-06-25T05:36:22.690Z",
+          "creatorID": 130974,
+          "documentID": "6497d256ab7f1b0007195598",
+          "version": 0.2
+        },
+        "6497d256ab7f1b0007195599": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "technologyreview.com/2022/04/06/1048981/worldcoin-cryptocurrency-biometrics-web3/",
+            "url": "https://www.technologyreview.com/2022/04/06/1048981/worldcoin-cryptocurrency-biometrics-web3/"
+          },
+          "updatedAt": "2023-06-25T05:36:22.706Z",
+          "creatorID": 130974,
+          "documentID": "6497d256ab7f1b0007195599",
+          "version": 0.2
+        },
+        "6497d256ab7f1b000719559a": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "techcrunch.com/2023/05/25/sam-altmans-crypto-project-worldcoin-got-more-coin-in-latest-115m-raise/",
+            "url": "https://techcrunch.com/2023/05/25/sam-altmans-crypto-project-worldcoin-got-more-coin-in-latest-115m-raise/"
+          },
+          "updatedAt": "2023-06-25T05:36:22.724Z",
+          "creatorID": 130974,
+          "documentID": "6497d256ab7f1b000719559a",
+          "version": 0.2
+        },
+        "6497d256ab7f1b000719559c": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "ethglobal.com/events/cafe-waterloo",
+            "url": "https://ethglobal.com/events/cafe-waterloo"
+          },
+          "updatedAt": "2023-06-25T05:36:22.745Z",
+          "creatorID": 130974,
+          "documentID": "6497d256ab7f1b000719559c",
+          "version": 0.2
+        },
+        "6497d4edab7f1b000719559e": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "gnosis.io/",
+            "url": "https://www.gnosis.io/"
+          },
+          "updatedAt": "2023-06-25T05:47:25.049Z",
+          "creatorID": 130974,
+          "documentID": "6497d4edab7f1b000719559e",
+          "version": 0.2
+        },
+        "6497d4edab7f1b000719559f": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "gnosis.io/validators",
+            "url": "https://www.gnosis.io/validators"
+          },
+          "updatedAt": "2023-06-25T05:47:25.094Z",
+          "creatorID": 130974,
+          "documentID": "6497d4edab7f1b000719559f",
+          "version": 0.2
+        },
+        "6497d4edab7f1b00071955a0": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "gnosis.io/events",
+            "url": "https://www.gnosis.io/events"
+          },
+          "updatedAt": "2023-06-25T05:47:25.095Z",
+          "creatorID": 130974,
+          "documentID": "6497d4edab7f1b00071955a0",
+          "version": 0.2
+        },
+        "6497d4edab7f1b00071955a1": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "gnosis.io/developers",
+            "url": "https://www.gnosis.io/developers"
+          },
+          "updatedAt": "2023-06-25T05:47:25.108Z",
+          "creatorID": 130974,
+          "documentID": "6497d4edab7f1b00071955a1",
+          "version": 0.2
+        },
+        "6497d73aab7f1b00071955a2": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "docs.ipfs.tech/",
+            "url": "https://docs.ipfs.tech/"
+          },
+          "updatedAt": "2023-06-25T05:57:14.409Z",
+          "creatorID": 130974,
+          "documentID": "6497d73aab7f1b00071955a2",
+          "version": 0.2
+        },
+        "6497d73aab7f1b00071955a3": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "docs.ipfs.tech/how-to/",
+            "url": "https://docs.ipfs.tech/how-to/"
+          },
+          "updatedAt": "2023-06-25T05:57:14.415Z",
+          "creatorID": 130974,
+          "documentID": "6497d73aab7f1b00071955a3",
+          "version": 0.2
+        },
+        "6497d73aab7f1b00071955a4": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "web3.storage/",
+            "url": "https://web3.storage/"
+          },
+          "updatedAt": "2023-06-25T05:57:14.416Z",
+          "creatorID": 130974,
+          "documentID": "6497d73aab7f1b00071955a4",
+          "version": 0.2
+        },
+        "6497d73aab7f1b00071955a5": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "docs.ipfs.tech/reference/",
+            "url": "https://docs.ipfs.tech/reference/"
+          },
+          "updatedAt": "2023-06-25T05:57:14.427Z",
+          "creatorID": 130974,
+          "documentID": "6497d73aab7f1b00071955a5",
+          "version": 0.2
+        },
+        "6497d73aab7f1b00071955a6": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "web3.storage/docs/",
+            "url": "https://web3.storage/docs/"
+          },
+          "updatedAt": "2023-06-25T05:57:14.451Z",
+          "creatorID": 130974,
+          "documentID": "6497d73aab7f1b00071955a6",
+          "version": 0.2
+        },
+        "6497d73aab7f1b00071955a7": {
+          "status": {
+            "type": "SUCCESS"
+          },
+          "data": {
+            "type": "url",
+            "name": "ipfs.tech/",
+            "url": "https://ipfs.tech/"
+          },
+          "updatedAt": "2023-06-25T05:57:14.468Z",
+          "creatorID": 130974,
+          "documentID": "6497d73aab7f1b00071955a7",
+          "version": 0.2
+        }
+      }
     },
     "prototype": {
       "nlp": {
         "type": "VFNLU"
       }
     },
-    "liveVersion": "64973ceacba8be000738c700",
+    "liveVersion": "6497eacccba8be000738c79c",
     "createdAt": "2023-06-24T01:34:42.000Z"
   },
   "version": {
@@ -494,6 +733,18 @@
           "name": "Mint Polygon POAP",
           "inputs": [],
           "slots": []
+        },
+        {
+          "key": "vekr31uo",
+          "name": "Data Dashboard",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "ndee38mb",
+          "name": "Get Transaction Details",
+          "inputs": [],
+          "slots": []
         }
       ],
       "settings": {
@@ -511,10 +762,10 @@
         }
       },
       "publishing": {
-        "avatar": "https://cm4-production-assets.s3.amazonaws.com/1687624663620-goose.jpg",
+        "avatar": "https://cm4-production-assets.s3.amazonaws.com/1687677573513-goose.png",
         "color": "#006ACC",
-        "description": "",
-        "image": "https://cm4-production-assets.s3.amazonaws.com/1687624661941-goose.jpg",
+        "description": "Goose.ai brings everything blockchain has to offer to mobile, Discord, Slack, and Telegram!",
+        "image": "https://cm4-production-assets.s3.amazonaws.com/1687677571609-goose.png",
         "persistence": "memory",
         "position": "right",
         "spacing": {
@@ -523,7 +774,7 @@
         },
         "title": "Goose.ai",
         "watermark": true,
-        "launcher": "https://cm4-production-assets.s3.amazonaws.com/1687624659389-goose.jpg",
+        "launcher": "https://cm4-production-assets.s3.amazonaws.com/1687677569515-goose.png",
         "feedback": false
       },
       "platform": "webchat"
@@ -570,7 +821,7 @@
           "64964832cba8be000738c64d"
         ],
         "rootDiagramID": "64964832cba8be000738c63f",
-        "updatedAt": "2023-06-24T20:08:33.728Z",
+        "updatedAt": "2023-06-25T03:59:36.806Z",
         "updatedBy": 130974
       }
     ],
@@ -794,6 +1045,26 @@
             "slots": []
           },
           {
+            "key": "vekr31uo",
+            "name": "Data Dashboard",
+            "inputs": [
+              {
+                "text": "Data Dashboard"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "ndee38mb",
+            "name": "Get Transaction Details",
+            "inputs": [
+              {
+                "text": "Get Transaction Details"
+              }
+            ],
+            "slots": []
+          },
+          {
             "key": "capture_name_ahjokmdl",
             "name": "capture_name_ahjokmdl",
             "inputs": [],
@@ -895,7 +1166,9 @@
           "gk28o3n6m",
           "1vg338ee",
           "66hp38kb",
-          "gg1ja38ax"
+          "gg1ja38ax",
+          "vekr31uo",
+          "ndee38mb"
         ],
         "platform": "webchat",
         "goToIntentsSet": [],
@@ -981,7 +1254,7 @@
                     "points": [
                       {
                         "point": [
-                          -1416,
+                          -1415.99,
                           -284.11
                         ]
                       },
@@ -10652,6 +10925,14 @@
         {
           "type": "NODE",
           "sourceID": "64972d8929a80b53b404edbf"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "64979204193e6bb13d9b0ac6"
+        },
+        {
+          "type": "NODE",
+          "sourceID": "6497b9c128df7b33bef3ec6c"
         }
       ],
       "creatorID": 130974,
@@ -10692,7 +10973,7 @@
                     "points": [
                       {
                         "point": [
-                          91.46,
+                          91.47,
                           117.6
                         ]
                       },
@@ -10747,7 +11028,7 @@
                         "fontWeight": "700"
                       },
                       {
-                        "text": ":"
+                        "text": ": (e.g. 0x0E5d299236647563649526cfa25c39d6848101f5)"
                       }
                     ]
                   }
@@ -12300,8 +12581,8 @@
           },
           "nodeID": "6495e9345ddb3d97cd112923",
           "coords": [
-            487.043998246557,
-            -605.3665179732458
+            94.51089276415995,
+            -734.0301469924758
           ]
         },
         "6495e95a5ddb3d97cd112a30": {
@@ -12328,20 +12609,32 @@
                       },
                       {
                         "point": [
-                          108.58,
+                          -80.89,
                           -542.51
                         ]
                       },
                       {
                         "point": [
-                          108.58,
-                          -578.37
+                          -80.89,
+                          -624.77
                         ]
                       },
                       {
                         "point": [
-                          322.04,
-                          -578.37
+                          -94.49,
+                          -624.77
+                        ]
+                      },
+                      {
+                        "point": [
+                          -94.49,
+                          -707.03
+                        ]
+                      },
+                      {
+                        "point": [
+                          -70.49,
+                          -707.03
                         ],
                         "allowedToTop": true
                       }
@@ -12383,8 +12676,18 @@
                 "actions": []
               },
               {
+                "id": "lw2993n74",
+                "name": "Mint Polygon NFT",
+                "actions": []
+              },
+              {
                 "id": "tu11b3n57",
                 "name": "Backup NFT",
+                "actions": []
+              },
+              {
+                "id": "urcf38e2",
+                "name": "Data Dashboard",
                 "actions": []
               },
               {
@@ -12393,14 +12696,21 @@
                 "actions": []
               },
               {
-                "id": "lw2993n74",
-                "name": "Mint Polygon NFT",
-                "actions": []
-              },
-              {
                 "id": "541j63nzu",
                 "name": "FAQ Assistant",
                 "actions": []
+              },
+              {
+                "id": "hq1m138dh",
+                "name": "Get Transaction Details",
+                "actions": [],
+                "intent": null
+              },
+              {
+                "id": "ny1mw38yt",
+                "name": "Get Wallet Balance",
+                "actions": [],
+                "intent": null
               }
             ],
             "intentScope": "GLOBAL",
@@ -12421,9 +12731,21 @@
                   "data": {}
                 },
                 {
+                  "id": "6495f80b5ddb3d97cd112f0f",
+                  "type": "",
+                  "target": "6495f9485ddb3d97cd112f2b",
+                  "data": {}
+                },
+                {
                   "type": "",
                   "target": "6495f9595ddb3d97cd112f3d",
                   "id": "6495e9955ddb3d97cd112b49",
+                  "data": {}
+                },
+                {
+                  "id": "649779e01c1e704c79eb78d5",
+                  "type": "",
+                  "target": "649791fa193e6bb13d9b0ac1",
                   "data": {}
                 },
                 {
@@ -12433,15 +12755,21 @@
                   "data": {}
                 },
                 {
-                  "id": "6495f80b5ddb3d97cd112f0f",
-                  "type": "",
-                  "target": "6495f9485ddb3d97cd112f2b",
-                  "data": {}
-                },
-                {
                   "id": "6495ec6b5ddb3d97cd112ca7",
                   "type": "",
                   "target": "6495f94d5ddb3d97cd112f31",
+                  "data": {}
+                },
+                {
+                  "id": "6497bb6328df7b33bef3eedb",
+                  "type": "",
+                  "target": "6497bb9e28df7b33bef3eee7",
+                  "data": {}
+                },
+                {
+                  "id": "6497bb6f28df7b33bef3eedd",
+                  "type": "",
+                  "target": "6497bb8e28df7b33bef3eee1",
                   "data": {}
                 }
               ]
@@ -13320,7 +13648,7 @@
                         "fontWeight": "700"
                       },
                       {
-                        "text": ":"
+                        "text": ": (e.g. 0x0E5d299236647563649526cfa25c39d6848101f5)"
                       }
                     ]
                   }
@@ -14530,32 +14858,32 @@
               "builtIn": {
                 "next": {
                   "type": "next",
-                  "target": "649661f755b0bba16cc63edd",
+                  "target": "6497ba6b28df7b33bef3ee61",
                   "id": "649661ed55b0bba16cc63ed5",
                   "data": {
                     "points": [
                       {
                         "point": [
-                          -223.87,
-                          2750.54
+                          -797.18,
+                          2675.88
                         ]
                       },
                       {
                         "point": [
-                          -174.43,
-                          2750.54
+                          -749.49,
+                          2675.88
                         ]
                       },
                       {
                         "point": [
-                          -174.43,
-                          2683.28
+                          -749.49,
+                          2661.8
                         ]
                       },
                       {
                         "point": [
-                          -125,
-                          2683.28
+                          -701.8,
+                          2661.8
                         ],
                         "allowedToTop": true
                       }
@@ -14578,8 +14906,8 @@
           },
           "nodeID": "649661ed55b0bba16cc63ed6",
           "coords": [
-            -351.7409854755751,
-            2728.5439078730665
+            -925.0743188089083,
+            2653.8772412064013
           ]
         },
         "649661f755b0bba16cc63eda": {
@@ -14788,8 +15116,9 @@
               "builtIn": {
                 "next": {
                   "type": "next",
-                  "target": null,
-                  "id": "6496646655b0bba16cc63eef"
+                  "target": "6497bb4828df7b33bef3eed6",
+                  "id": "6496646655b0bba16cc63eef",
+                  "data": {}
                 }
               },
               "dynamic": []
@@ -14913,7 +15242,35 @@
                   "type": "next",
                   "target": "64972d8929a80b53b404edaf",
                   "id": "64972d8929a80b53b404edbe",
-                  "data": {}
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -1644.98,
+                          3399.89
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1576.43,
+                          3399.89
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1576.43,
+                          3215.36
+                        ]
+                      },
+                      {
+                        "point": [
+                          -1507.88,
+                          3215.36
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
                 }
               },
               "dynamic": []
@@ -14947,7 +15304,7 @@
                         "fontWeight": "700"
                       },
                       {
-                        "text": ":"
+                        "text": ": (e.g. 0x0E5d299236647563649526cfa25c39d6848101f5)"
                       }
                     ]
                   }
@@ -16212,6 +16569,745 @@
             ]
           },
           "nodeID": "64973a456cf3c36c885121ee",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "649779ef1c1e704c79eb78d7": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "yrdm38gd",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Link to Data Dashboard: "
+                      },
+                      {
+                        "type": "link",
+                        "url": "https://goosedashboard.streamlit.app/",
+                        "children": [
+                          {
+                            "text": "https://goosedashboard.streamlit.app/",
+                            "color": {
+                              "r": 93,
+                              "g": 157,
+                              "b": 245,
+                              "a": 1
+                            },
+                            "underline": true
+                          }
+                        ]
+                      },
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649779fd1c1e704c79eb78e1",
+                  "id": "649779ef1c1e704c79eb78d8",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "649779ef1c1e704c79eb78d7"
+        },
+        "649779ef1c1e704c79eb78d9": {
+          "type": "block",
+          "data": {
+            "name": "New Block 47",
+            "steps": [
+              "649779ef1c1e704c79eb78d7"
+            ]
+          },
+          "nodeID": "649779ef1c1e704c79eb78d9",
+          "coords": [
+            1212.6936040758808,
+            -432.6670384821899
+          ]
+        },
+        "649779fd1c1e704c79eb78e0": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "VF.START_OVER",
+            "diagramID": "64964832cba8be000738c63f",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "649779fd1c1e704c79eb78e0"
+        },
+        "649779fd1c1e704c79eb78e1": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "649779fd1c1e704c79eb78e0"
+            ]
+          },
+          "nodeID": "649779fd1c1e704c79eb78e1",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "649791fa193e6bb13d9b0ac0": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "vekr31uo",
+            "diagramID": "64964832cba8be000738c64d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "649791fa193e6bb13d9b0ac0"
+        },
+        "649791fa193e6bb13d9b0ac1": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "649791fa193e6bb13d9b0ac0"
+            ]
+          },
+          "nodeID": "649791fa193e6bb13d9b0ac1",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64979204193e6bb13d9b0ac6": {
+          "type": "intent",
+          "data": {
+            "name": "",
+            "intent": "vekr31uo",
+            "mappings": [],
+            "availability": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649779ef1c1e704c79eb78d9",
+                  "id": "64979204193e6bb13d9b0ac7",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          824.58,
+                          -387.97
+                        ]
+                      },
+                      {
+                        "point": [
+                          911.33,
+                          -396.58
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64979204193e6bb13d9b0ac6"
+        },
+        "64979204193e6bb13d9b0ac8": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "64979204193e6bb13d9b0ac6"
+            ]
+          },
+          "nodeID": "64979204193e6bb13d9b0ac8",
+          "coords": [
+            718.6964923231641,
+            -409.97027100946997
+          ]
+        },
+        "6497b9c128df7b33bef3ec6c": {
+          "type": "intent",
+          "data": {
+            "name": "",
+            "intent": "ndee38mb",
+            "mappings": [],
+            "availability": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497ba7528df7b33bef3ee7c",
+                  "id": "6497b9c128df7b33bef3ec6d",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497b9c128df7b33bef3ec6c"
+        },
+        "6497b9c128df7b33bef3ec6e": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "6497b9c128df7b33bef3ec6c"
+            ]
+          },
+          "nodeID": "6497b9c128df7b33bef3ec6e",
+          "coords": [
+            821.9082867296837,
+            2537.774687540751
+          ]
+        },
+        "6497ba0528df7b33bef3ec7e": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "p3qk3812",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Quicknode Polygon Transaction Details Retrieved! 🤩"
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "last_response_stringified",
+                        "name": "last_response_stringified",
+                        "isSlot": false,
+                        "type": "variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "text": " "
+                      }
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497bb3f28df7b33bef3eed0",
+                  "id": "6497ba0528df7b33bef3ec7f",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497ba0528df7b33bef3ec7e"
+        },
+        "6497ba0528df7b33bef3ec81": {
+          "type": "block",
+          "data": {
+            "name": "New Block 36 copy",
+            "color": "",
+            "steps": [
+              "6497ba0528df7b33bef3ec7e"
+            ]
+          },
+          "nodeID": "6497ba0528df7b33bef3ec81",
+          "coords": [
+            2350.102731174129,
+            2609.830243096307
+          ]
+        },
+        "6497ba6b28df7b33bef3ee61": {
+          "type": "block",
+          "data": {
+            "name": "New Block 1",
+            "color": "",
+            "steps": [
+              "6497ba6b28df7b33bef3ee65",
+              "6497ba6b28df7b33bef3ee68"
+            ]
+          },
+          "nodeID": "6497ba6b28df7b33bef3ee61",
+          "coords": [
+            -536.7977013661467,
+            2634.804330418343
+          ]
+        },
+        "6497ba6b28df7b33bef3ee65": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "8i3om3ng7",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Please enter your "
+                      },
+                      {
+                        "text": "Polygon",
+                        "fontWeight": "700"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "text": "Wallet Address",
+                        "fontWeight": "700"
+                      },
+                      {
+                        "text": ": (e.g. 0x0E5d299236647563649526cfa25c39d6848101f5)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497ba6b28df7b33bef3ee68",
+                  "id": "6497ba6b28df7b33bef3ee66"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497ba6b28df7b33bef3ee65"
+        },
+        "6497ba6b28df7b33bef3ee68": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "nftWalletAddress"
+            },
+            "noReply": null,
+            "noMatch": null,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "649661f755b0bba16cc63edd",
+                  "id": "6497ba6b28df7b33bef3ee69",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -370.8,
+                          2853.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          -247.9,
+                          2853.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          -247.9,
+                          2683.28
+                        ]
+                      },
+                      {
+                        "point": [
+                          -125,
+                          2683.28
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "6497ba6b28df7b33bef3ee6a"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497ba6b28df7b33bef3ee68"
+        },
+        "6497ba7528df7b33bef3ee7c": {
+          "type": "block",
+          "data": {
+            "name": "New Block 1",
+            "color": "",
+            "steps": [
+              "6497ba7528df7b33bef3ee7e",
+              "6497ba7528df7b33bef3ee81"
+            ]
+          },
+          "nodeID": "6497ba7528df7b33bef3ee7c",
+          "coords": [
+            1273.2022986338527,
+            2604.8043304183425
+          ]
+        },
+        "6497ba7528df7b33bef3ee7e": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "8i3om3ng7",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Please enter your "
+                      },
+                      {
+                        "text": "Polygon Transaction Hash",
+                        "fontWeight": "700"
+                      },
+                      {
+                        "text": ": (e.g. 0xa1d13aba620c72fa7fabbe61a4dc6fc2e44512bb2689ef9358198056ac1dd520)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497ba7528df7b33bef3ee81",
+                  "id": "6497ba7528df7b33bef3ee7f"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497ba7528df7b33bef3ee7e"
+        },
+        "6497ba7528df7b33bef3ee81": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "transactionHash"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497bac928df7b33bef3eeba",
+                  "id": "6497ba7528df7b33bef3ee82",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1439.2,
+                          2846.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          1467.56,
+                          2846.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          1467.56,
+                          2598.53
+                        ]
+                      },
+                      {
+                        "point": [
+                          1495.91,
+                          2598.53
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "6497ba7528df7b33bef3ee83"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497ba7528df7b33bef3ee81"
+        },
+        "6497bac928df7b33bef3eeb7": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://quiet-compatible-morning.matic-testnet.discover.quiknode.pro/766547a2fb1d1b9bb9c77babd3c3d10a3d91ab7e",
+            "body": [
+              {
+                "key": "",
+                "val": ""
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [],
+            "content": "{\"method\":\"eth_getTransactionByHash\",\"params\":[\"{transactionHash}\"],\"id\":1,\"jsonrpc\":\"2.0\"}",
+            "mappings": [
+              {
+                "path": "result",
+                "var": "last_response"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497bafd28df7b33bef3eec4",
+                  "id": "6497bac928df7b33bef3eeb8",
+                  "data": {}
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "6497bac928df7b33bef3eeb9"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497bac928df7b33bef3eeb7"
+        },
+        "6497bac928df7b33bef3eeba": {
+          "type": "block",
+          "data": {
+            "name": "New Block 53",
+            "steps": [
+              "6497bac928df7b33bef3eeb7"
+            ]
+          },
+          "nodeID": "6497bac928df7b33bef3eeba",
+          "coords": [
+            1670.908203125,
+            2571.5247802734375
+          ]
+        },
+        "6497bafd28df7b33bef3eec3": {
+          "type": "code",
+          "data": {
+            "name": "",
+            "code": "last_response_stringified = JSON.stringify(last_response)",
+            "paths": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6497ba0528df7b33bef3ec81",
+                  "id": "6497bafd28df7b33bef3eec5",
+                  "data": {}
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "6497bafd28df7b33bef3eec6"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497bafd28df7b33bef3eec3"
+        },
+        "6497bafd28df7b33bef3eec4": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "6497bafd28df7b33bef3eec3"
+            ]
+          },
+          "nodeID": "6497bafd28df7b33bef3eec4",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6497bb3f28df7b33bef3eecf": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "4nvr3nw0",
+            "diagramID": "64964832cba8be000738c64d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497bb3f28df7b33bef3eecf"
+        },
+        "6497bb3f28df7b33bef3eed0": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "6497bb3f28df7b33bef3eecf"
+            ]
+          },
+          "nodeID": "6497bb3f28df7b33bef3eed0",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6497bb4828df7b33bef3eed5": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "VF.START_OVER",
+            "diagramID": "64964832cba8be000738c63f",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497bb4828df7b33bef3eed5"
+        },
+        "6497bb4828df7b33bef3eed6": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "6497bb4828df7b33bef3eed5"
+            ]
+          },
+          "nodeID": "6497bb4828df7b33bef3eed6",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6497bb8e28df7b33bef3eee0": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "66hp38kb",
+            "diagramID": "64964832cba8be000738c64d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497bb8e28df7b33bef3eee0"
+        },
+        "6497bb8e28df7b33bef3eee1": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "6497bb8e28df7b33bef3eee0"
+            ]
+          },
+          "nodeID": "6497bb8e28df7b33bef3eee1",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "6497bb9e28df7b33bef3eee6": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "ndee38mb",
+            "diagramID": "64964832cba8be000738c64d",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6497bb9e28df7b33bef3eee6"
+        },
+        "6497bb9e28df7b33bef3eee7": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "6497bb9e28df7b33bef3eee6"
+            ]
+          },
+          "nodeID": "6497bb9e28df7b33bef3eee7",
           "coords": [
             0,
             0
