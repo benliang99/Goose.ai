@@ -20,7 +20,10 @@ We appreciate an impressive vision, an effective use case, and give additional p
 
 ### Please add a sentence or two on why you're applicable for this prize.
 
-We are building a data visualization dashboard that monitors one's Gnosis Safe wallet's transactions, ownership status, and balance powered by The Graph and Gnosis Safe.
+We are building a data visualization dashboard that monitors your Gnosis Safe wallet's transactions, ownership status, creation date and more! (The Graph, Gnosis Safe)
+1. Find trends using our interactive plotting feature using data from the Gnosis Safe subgraph
+2. Enter your Gnosis Safe wallet address or transaction address to get information instantly
+3. Download the data you selected as a .csv
 
 Furthermore, we have leveraged OpenAI and trained a custom LLM to answer everything related to Gnosis!
 
