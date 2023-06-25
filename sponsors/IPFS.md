@@ -12,7 +12,7 @@ Goose.ai allows anyone to backup their NFTs on any chain through chat using IPFS
 
 ### Link to the code where the tech is used.
 
-https://github.com/saccharinedreams/Goose.ai/blob/e004bdd8c29e5cf4383f64006a7a81bf24b8e8f0/Goose.ai.vf#L6107
+https://github.com/saccharinedreams/Goose.ai/blob/d6ab8e30760b94c9db79af5a3bf45ac2dbd7f4fa/Goose.ai.vf#L6376-L6401
 
 ### How easy is it to use the API / Protocol? (1 - very difficult, 10 - very easy)
 
