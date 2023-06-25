@@ -330,6 +330,7 @@ export default function Home() {
           </div>
           <h1>&nbsp;</h1>
 
+
           <div>Injected Provider {hasProvider ? "DOES" : "DOES NOT"} Exist</div>
           <h1>&nbsp;</h1>
           <button
@@ -466,6 +467,8 @@ export default function Home() {
           </IDKitWidget>
           <h1>&nbsp;</h1>
           <p className="text-13 text-c2a4e5">Powered by WorldCoin</p>
+          <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/423/408/datas/original.png"></img>
+
         </div>
       )}
       {verified && (
