@@ -50,6 +50,8 @@ Technologies Used: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, Th
            -  Look up details about any individual user
      - Retrieve and visualize marketplace data **[Airstack](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/Airstack.md)**
      - Monitor ApeCoin activity **(Snapshot/GraphQL, ApeCoin DAO)**
+  
+5. We also minted a "Rotating Mr. Goose" Generative NFT Collection using **[Highlight](https://github.com/saccharinedreams/Goose.ai/blob/main/sponsors/highlight.md)! 
 
 Check out our [ETHGlobal page](https://ethglobal.com/showcase/goose-ai-3tgh9)! Goose.ai is an [ETHGlobal Waterloo](https://ethglobal.com/events/waterloo2023) project.
 
