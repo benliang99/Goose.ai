@@ -1,0 +1,1 @@
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"339fba7e74b3fa32aaa834639ae960b1","lockfileHash":"75284a6b60b1f2ca66b85e09ed57cdbe","guessedImports":["@slack/bolt","axios","slate","escape-html"],"guessedImportsHash":"799b6eb0e4b3d64861777279e4b4794b"}}}
