@@ -15,7 +15,7 @@ st.markdown(
     **👈 Select a data source from the sidebar**.
     ### Gnosis
 
-    ### Airstack and XMTP
+    ### Airstack
     
     ### UMA
 
