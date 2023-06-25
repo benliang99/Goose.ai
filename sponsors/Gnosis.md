@@ -26,7 +26,7 @@ Furthermore, we have leveraged OpenAI and trained a custom LLM to answer everyth
 
 ### Link to the code where the tech is used.
 
-https://github.com/saccharinedreams/Goose.ai/blob/b6891d230d5c4d95fc4b14bff081d95402aabfdf/dashboard/utils/gnosis-safe-data-retrieval.py#L12
+https://github.com/saccharinedreams/Goose.ai/blob/b6891d230d5c4d95fc4b14bff081d95402aabfdf/dashboard/utils/gnosis-safe-data-retrieval.py#L12-L148
 
 ### How easy is it to use the API / Protocol? (1 - very difficult, 10 - very easy)
 

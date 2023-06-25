@@ -1,12 +1,6 @@
 
 # 🏆 Bounties
 
-##
-
-### UMA
-
-🏊 Pool Prize — $3,000 distributed between all qualifying submissions
-
 ### The Graph
 
 Pool Prize: Build and deploy or use an existing subgraph that indexes data from a smart contract to query blockchain data to your dapp.
