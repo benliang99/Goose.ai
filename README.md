@@ -55,3 +55,5 @@ Technologies Used: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, Th
 
 Check out our [ETHGlobal page](https://ethglobal.com/showcase/goose-ai-3tgh9)! Goose.ai is an [ETHGlobal Waterloo](https://ethglobal.com/events/waterloo2023) project.
 
+## The Team
+![team slide page](Screenshots/Team.png)
