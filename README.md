@@ -154,20 +154,7 @@ Edit traits - https://studio.noundry.wtf/
 Edit traits https://jetstream.wtf/
 Add glasses to images - https://nounify.wtf/
 
-### Highlight:
 
-Judges from Highlight, and the Ethereum art community will select the best code-based generative art project representing the ETHGlobal brand and mission.
-
-🏆 We’re offering the following prizes for the most creative and inventive use of Highlight:
-
-🥇 Gold: $3,000
-
-🥈 Silver: $1,500
-
-🥉 Bronze: $500
-
-
-CryptoGeese NFT Collection 
 
 ### HyperLane
 
