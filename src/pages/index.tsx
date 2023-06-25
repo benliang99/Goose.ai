@@ -1,9 +1,38 @@
 import { CredentialType, IDKitWidget } from "@worldcoin/idkit";
 import type { ISuccessResult } from "@worldcoin/idkit";
 import styles from "../styles/Home.module.css";
-import { useState } from "react";
+
+import { useState, useEffect } from "react";
+import detectEthereumProvider from "@metamask/detect-provider";
 
 export default function Home() {
+  const [hasProvider, setHasProvider] = useState<boolean | null>(null);
+  const initialState = { accounts: [] }; /* New */
+  const [wallet, setWallet] = useState(initialState); /* New */
+
+  useEffect(() => {
+    const getProvider = async () => {
+      const provider = await detectEthereumProvider({ silent: true });
+      setHasProvider(Boolean(provider));
+    };
+
+    getProvider();
+  }, []);
+
+  const updateWallet = async (accounts: any) => {
+    /* New */
+    setWallet({ accounts }); /* New */
+    setVerified(true);
+  }; /* New */
+
+  const handleConnect = async () => {
+    /* New */
+    let accounts = await window.ethereum.request({
+      /* New */ method: "eth_requestAccounts" /* New */,
+    }); /* New */
+    updateWallet(accounts); /* New */
+  };
+
   const [verified, setVerified] = useState(false);
 
   const onSuccess = (result: ISuccessResult) => {
@@ -104,6 +133,15 @@ export default function Home() {
           </div>
           <h1>&nbsp;</h1>
           <h1>&nbsp;</h1>
+          <div>Injected Provider {hasProvider ? "DOES" : "DOES NOT"} Exist</div>
+
+          {hasProvider /* Updated */ && (
+            <button onClick={handleConnect}>Connect MetaMask</button>
+          )}
+
+          {wallet.accounts.length > 0 /* New */ && (
+            <div>Wallet Accounts: {wallet.accounts[0]}</div>
+          )}
           <IDKitWidget
             action={process.env.NEXT_PUBLIC_WLD_ACTION_NAME!}
             onSuccess={onSuccess}
