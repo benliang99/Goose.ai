@@ -32,3 +32,9 @@ https://github.com/saccharinedreams/Goose.ai/blob/2352b98432e3839bacb883623e1e93
 
 Leveraging MetaMask SDK was very intuitive!
 
+
+
+https://github.com/saccharinedreams/Goose.ai/assets/25058545/ace5d53f-17ab-429c-acc8-e3e7c785e129
+
+
+
