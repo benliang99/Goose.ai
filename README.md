@@ -6,7 +6,7 @@ Login to our chatbot with WorldCoin or MetaMask [here](https://goose-ai.netlify.
 
 Access our Dashboard via our chatbot or directly [here](https://goosedashboard.streamlit.app/).
 
-#### Mission: Onboarding the next billion Web3 users across mobile, Discord, Slack, and Telegram regardless of platform and technical expertise!
+#### Mission: Onboarding the next billion Web3 users, regardless of platform and technical expertise restrictions
 
 ## 💡 Inspiration 
 
