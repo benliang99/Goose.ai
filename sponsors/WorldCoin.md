@@ -33,3 +33,11 @@ https://github.com/saccharinedreams/Goose.ai/blob/e004bdd8c29e5cf4383f64006a7a81
 ### Additional Feedback
 
 Had some hiccups with the API Reference, but later building with the Demo Starter repository and leveraging IDKitWidget was very intuitive!
+
+WorldCoin Secure Authentication Using World ID!
+
+https://github.com/saccharinedreams/Goose.ai/blob/main/demos/WorldCoin/worldcoin_login.mp4
+
+WorldCoin FAQ using OpenAI!
+
+https://github.com/saccharinedreams/Goose.ai/blob/main/demos/WorldCoin/WorldCoin%20FAQ.mp4
