@@ -40,7 +40,7 @@ Technologies: WorldCoin login, Gnosis Safe, Polygon, IPFS, Web3.Storage, The Gra
         - Enter your Gnosis Safe wallet address or transaction address to get information instantly
         - Download the data you selected as a .csv
      - Monitor UMA Mainnet Voting Entities **(The Graph, UMA)**
-        -  
+        -  Retrieve data about: User, PriceIdentifier, PriceRequest, PriceRequestRound, VoterGroup, CommittedVote, RevealedVote, RewardsClaimed
      - Retrieve and visualize marketplace data **(Airstack)**
      - Monitor ApeCoin activity **(Snapshot/GraphQL, ApeCoin DAO)**
 
