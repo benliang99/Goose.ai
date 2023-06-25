@@ -12,11 +12,11 @@ Builders can use OO as a decentralized truth machine that is flexible enough to 
 
 ### Please add a sentence or two on why you're applicable for this prize.
 
-We are building a data visualization dashboard that monitors data on UMA powered by The Graph and UMA.
+We are building a data visualization dashboard that monitors data on UMA powered by The Graph and Gnosis Safe.
 
 ### Link to the code where the tech is used.
 
-https://github.com/saccharinedreams/Goose.ai/blob/179e51c62f8df9499b0faf2292f15a001f48dc13/dashboard/utils/uma-data-retrieval.py#L9
+https://github.com/saccharinedreams/Goose.ai/blob/63a7c25a1d07328a25970fe3f1316d639ae05b83/dashboard/utils/uma-mainnet-voting-data-retrieval.py#L8
 
 ### How easy is it to use the API / Protocol? (1 - very difficult, 10 - very easy)
 

@@ -136,7 +136,23 @@ export default function Home() {
           <div>Injected Provider {hasProvider ? "DOES" : "DOES NOT"} Exist</div>
 
           {hasProvider /* Updated */ && (
-            <button onClick={handleConnect}>Connect MetaMask</button>
+            <button
+              onClick={handleConnect}
+              style={{
+                padding: "10px 20px",
+                fontSize: "16px",
+                fontWeight: "bold",
+                borderRadius: "5px",
+                color: "#fff",
+                backgroundColor: "#007bff",
+                border: "none",
+                cursor: "pointer",
+                boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+                transition: "background-color 0.3s",
+              }}
+            >
+              Connect MetaMask
+            </button>
           )}
 
           {wallet.accounts.length > 0 /* New */ && (
