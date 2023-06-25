@@ -14,8 +14,14 @@ Builders can use OO as a decentralized truth machine that is flexible enough to 
 
 We are building a data visualization dashboard that monitors UMA Mainnet Voting Entities using The Graph.
 
-We retrieve data about: User, PriceIdentifier, PriceRequest, PriceRequestRound, VoterGroup, CommittedVote, RevealedVote, RewardsClaimed to list a few!
+We retrieve data about UMA Protocol's Mainnet Voting Entities: User, PriceIdentifier, PriceRequest, PriceRequestRound, VoterGroup, CommittedVote, RevealedVote, RewardsClaimed.
 
+-  Users can:
+   -  Find the users who vote the most
+   -  Find the users who vote *correctly* the most
+   -  Sort data by PriceRequest value
+   -  Look up details about any individual user
+   
 ### Link to the code where the tech is used.
 
 https://github.com/saccharinedreams/Goose.ai/blob/63a7c25a1d07328a25970fe3f1316d639ae05b83/dashboard/utils/uma-mainnet-voting-data-retrieval.py#L6-L27
