@@ -20,7 +20,7 @@ Pool Prize: Build and deploy or use an existing subgraph that indexes data from 
 
 ### Please add a sentence or two on why you're applicable for this prize.
 
-The Graph helps us lower the barrier of entry to data in Web3. We are leveraging The Graph to create data visualization dashboards for monitoring Gnosis Safe wallet's transactions, ownership status, creation date and more, as well as UMA Mainnet Voting Entities!
+The Graph helps us lower the barrier of entry to data in Web3. We are leveraging The Graph to create data visualization dashboards for monitoring Gnosis Safe wallet's transactions, ownership status, creation date and more, as well as UMA Mainnet Voting Entities! We also answer questions about The Graph with our LLM-driven chatbot!
 
 With the Gnosis Safe subgraph on The Graph, you can:
   - Find trends using our interactive plotting feature using data from an existing The Graph's Gnosis Safe subgraph
