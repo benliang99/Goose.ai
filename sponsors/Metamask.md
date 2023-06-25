@@ -14,7 +14,7 @@ We are also using MetaMask SDK to provide secure authentication login for our PO
 
 ### Link to the code where the tech is used.
 
-https://github.com/saccharinedreams/Goose.ai/blob/e61e4110c3684d82c6b0e72946e8079b3d10f4a0/src/pages/index.tsx#L145
+https://github.com/saccharinedreams/Goose.ai/blob/e61e4110c3684d82c6b0e72946e8079b3d10f4a0/src/pages/index.tsx#L117-L161
 
 ### How easy is it to use the API / Protocol? (1 - very difficult, 10 - very easy)
 
