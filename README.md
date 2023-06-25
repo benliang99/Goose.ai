@@ -57,8 +57,6 @@ Check out our [ETHGlobal page](https://ethglobal.com/showcase/goose-ai-3tgh9)! G
 
 ## Pitch and Demo Video
 
-📹 [Pitch + Demo Video]()
-
 👀 [Slide Deck](https://www.canva.com/design/DAFm0gA7A6E/P_qN1To6Gd56CNIkA6JSiw/view?utm_content=DAFm0gA7A6E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ## The Team
