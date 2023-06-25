@@ -1,6 +1,8 @@
 # 🍁 Goose.ai
 
 ### Goose.ai brings everything blockchain has to offer to mobile, Discord, Slack, and Telegram!
+Login with WorldCoin [here](goose-ai.netlify.app)
+Access our Dashboard via chat or directly [here](https://goosedashboard.streamlit.app/)
 
 ## 💡 Inspiration 
 
