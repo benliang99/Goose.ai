@@ -22,7 +22,7 @@ export default function Home() {
   const updateWallet = async (accounts: any) => {
     /* New */
     setWallet({ accounts }); /* New */
-    setVerified(true);
+    setTimeout(() => {  setVerified(true); }, 2000);
   }; /* New */
 
   const handleConnect = async () => {
@@ -132,31 +132,34 @@ export default function Home() {
             </h2>
           </div>
           <h1>&nbsp;</h1>
-          <h1>&nbsp;</h1>
-          <div>Injected Provider {hasProvider ? "DOES" : "DOES NOT"} Exist</div>
 
-          {hasProvider /* Updated */ && (
-            <button
-              onClick={handleConnect}
-              style={{
-                padding: "10px 20px",
-                fontSize: "16px",
-                fontWeight: "bold",
-                borderRadius: "5px",
-                color: "#fff",
-                backgroundColor: "#007bff",
-                border: "none",
-                cursor: "pointer",
-                boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-                transition: "background-color 0.3s",
-              }}
-            >
-              Connect MetaMask
-            </button>
-          )}
+          <div>Injected Provider {hasProvider ? 'DOES' : 'DOES NOT'} Exist</div>
+          <h1>&nbsp;</h1>
+          <button
+            onClick={handleConnect}
+            style={{
+              padding: "10px 20px",
+              fontSize: "16px",
+              fontWeight: "bold",
+              borderRadius: "5px",
+              color: "#fff",
+              backgroundColor: "orange",
+              border: "none",
+              cursor: "pointer",
+              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              transition: "background-color 0.3s",
+            }}
+          >
+            Connect MetaMask
+          </button>
+
+          <h1>&nbsp;</h1>
+          <p className="text-13 text-c2a4e5">Powered by MetaMask SDK</p>
+
+          <h1>&nbsp;</h1>
 
           {wallet.accounts.length > 0 /* New */ && (
-            <div>Wallet Accounts: {wallet.accounts[0]}</div>
+            <h1>Wallet Accounts: {wallet.accounts[0]}</h1>
           )}
           <IDKitWidget
             action={process.env.NEXT_PUBLIC_WLD_ACTION_NAME!}
@@ -174,7 +177,7 @@ export default function Home() {
                   fontWeight: "bold",
                   borderRadius: "5px",
                   color: "#fff",
-                  backgroundColor: "#007bff",
+                  backgroundColor: "black",
                   border: "none",
                   cursor: "pointer",
                   boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
@@ -195,7 +198,11 @@ export default function Home() {
           width="100%"
           height="100%"
         ></iframe>
+        
       )}
+      { wallet.accounts.length > 0 &&                /* New */
+        <div>Wallet Accounts: { wallet.accounts[0] }</div>
+      }
     </div>
   );
 }
