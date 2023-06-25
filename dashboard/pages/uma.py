@@ -22,6 +22,9 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Voter Groups", "User Correc
 def convert_df(df):
    return df.to_csv(index=False).encode('utf-8')
 
+progress_bar = st.sidebar.progress(0)
+status_text = st.sidebar.empty()
+
 with tab1:
    st.header("Voter Groups")
    # Download CSV button
@@ -40,6 +43,10 @@ with tab1:
     )
    if(number > 0):
     st.dataframe(voterGroups_df)
+   for i in range(0, 9):
+    status_text.text("%i%% Complete" % i)
+    progress_bar.progress(i)
+    time.sleep(0.05)
 
 with tab2:
    st.header("User Correct Votes")
@@ -57,6 +64,10 @@ with tab2:
     key='download-csv2'
     )
    st.dataframe(userDescendingByNumCorrectVotes_df)
+   for i in range(10, 24):
+        status_text.text("%i%% Complete" % i)
+        progress_bar.progress(i)
+        time.sleep(0.05)
    
 
 with tab3:
@@ -75,6 +86,10 @@ with tab3:
     key='download-csv3'
     )
    st.dataframe(userDescendingByNumVotes_df)
+   for i in range(25, 39):
+        status_text.text("%i%% Complete" % i)
+        progress_bar.progress(i)
+        time.sleep(0.05)
 
 
 with tab4:
@@ -94,6 +109,10 @@ with tab4:
     key='download-csv4'
     )
    st.dataframe(specificUser_df)
+   for i in range(40, 54):
+        status_text.text("%i%% Complete" % i)
+        progress_bar.progress(i)
+        time.sleep(0.05)
 
 with tab5:
    st.header("Price Requests")
@@ -108,6 +127,10 @@ with tab5:
     key='download-csv5'
     )
    st.dataframe(priceRequestsAscending_df)
+   for i in range(55, 69):
+        status_text.text("%i%% Complete" % i)
+        progress_bar.progress(i)
+        time.sleep(0.05)
 
 with tab6:
    st.header("Price Identifiers")
@@ -124,6 +147,10 @@ with tab6:
     )
    if(number > 0):
     st.dataframe(firstPriceIdentifiers_df)
+   for i in range(70, 84):
+        status_text.text("%i%% Complete" % i)
+        progress_bar.progress(i)
+        time.sleep(0.05)
 
 with tab7:
    st.header("Users")
@@ -140,6 +167,12 @@ with tab7:
     )
    if(number > 0):
     st.dataframe(users_df)
+    
+   for i in range(85, 101):
+        status_text.text("%i%% Complete" % i)
+        progress_bar.progress(i)
+        time.sleep(0.05)
+   progress_bar.empty()
 
 # Streamlit widgets automatically run the script from top to bottom. Since
 # this button is not connected to any other logic, it just causes a plain
