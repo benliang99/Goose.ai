@@ -12,7 +12,9 @@ Builders can use OO as a decentralized truth machine that is flexible enough to 
 
 ### Please add a sentence or two on why you're applicable for this prize.
 
-We are building a data visualization dashboard that monitors data on UMA powered by The Graph and Gnosis Safe.
+We are building a data visualization dashboard that monitors UMA Mainnet Voting Entities using The Graph.
+
+We retrieve data about: User, PriceIdentifier, PriceRequest, PriceRequestRound, VoterGroup, CommittedVote, RevealedVote, RewardsClaimed to list a few!
 
 ### Link to the code where the tech is used.
 
