@@ -1,4 +1,6 @@
-# 🇨🇦 Goose.ai
+# 🍁 Goose.ai
+
+### Goose.ai brings everything blockchain has to offer to mobile, Discord, Slack, and Telegram!
 
 ## 💡 Inspiration 
 
