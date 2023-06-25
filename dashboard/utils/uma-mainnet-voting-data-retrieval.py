@@ -11,8 +11,8 @@ from datetime import datetime
 API_KEY = 'dc600989321fa0012e06d1a111a29d60'
 API_URL = 'https://gateway.thegraph.com/api/'+API_KEY+'/subgraphs/id/41LCrgtCNBQyDiVVyZEuPxbvkBH9BxxLU3nEZst77V8o'
 
-# etrieve data about: User, PriceIdentifier, PriceRequest, PriceRequestRound,
-#  VoterGroup, CommittedVote, RevealedVote, RewardsClaimed
+# Retrieve data about: User, PriceIdentifier, PriceRequest, PriceRequestRound,
+# VoterGroup, CommittedVote, RevealedVote, RewardsClaimed
 
 def prepareJSON(query):
     r = requests.post(API_URL, json={'query': query})
