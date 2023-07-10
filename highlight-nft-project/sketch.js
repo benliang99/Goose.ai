@@ -41,9 +41,8 @@ let count;
  * Load any assets we need for the sketch
  */
 function preload() {
-  plexMono = loadFont("fonts/IBMPlexMono-Regular.ttf");
-  img = loadImage('images/goose.png'); // Replace 'path/to/your/image.jpg' with the actual path to your image
-
+  //plexMono = loadFont("fonts/IBMPlexMono-Regular.ttf");
+  img = loadImage("images/goose.png"); // Replace 'path/to/your/image.jpg' with the actual path to your image
 }
 
 /*
@@ -64,46 +63,40 @@ function setup() {
   color2 = hl.randomElement(colorChoices);
   color3 = hl.randomElement(colorChoices);
   color4 = hl.randomElement(colorChoices);
-
-  // Set attributes
-  hl.token.setAttributes({
-    "Background Color": backgroundColor,
-    "Color 1": color1,
-    "Color 2": color2,
-    "Color 3": color3,
-    "Color 4": color4,
-  });
 }
-
-
-
 
 function draw() {
   noStroke();
   background(backgroundColor);
-
   translate(width / 2, height / 2);
 
   // Draw random shapes
   for (let i = 0; i < 50; i++) {
     let shapeColor = hl.randomElement(colorChoices);
-    let shapeSize = random(50, width * 0.5);
+    let shapeSize = hl.random(50, width * 0.5);
 
     fill(shapeColor);
     ellipse(
-      random(-width / 2, width / 2),
-      random(-height / 2, height / 2),
+      hl.random(-width / 2, width / 2),
+      hl.random(-height / 2, height / 2),
       shapeSize,
       shapeSize
     );
   }
 
-  rotate(radians(Math.random() * 365)); // Rotate the image by the specified angle
+  // Use hl.randomInt() to ensure rotation stays the same for this token
+  let rotation = hl.tx.tokenId % 360;
+
+  rotate(radians(rotation));
   image(img, -img.width / 2, -img.height / 2); // Display the image at the center of the sketch
 
   hl.token.capturePreview();
 
-  count = count + 1;
+  // Set attributes
+  hl.token.setAttributes({
+    "Background Color": backgroundColor,
+    Rotation: rotation,
+  });
 }
 
 function gradientBackground(color1, color2, color3, color4) {
